@@ -38,14 +38,14 @@
             return selectedLanguage;
         },
         saveLanguage: function(language) {
-        ShopifyAPI.getCart(function (cart) {
-            var note = cart.note;
-            if(note == 'null') {
-                note = '';
-            }
-            ShopifyAPI.updateCartNote(note, function () {
-                ShopifyAPI.updateCartAttributes({'language': language}, function() {langify.loader.reload();});});
-        });
+            ShopifyAPI.getCart(function (cart) {
+                var note = cart.note;
+                if(note == 'null') {
+                    note = '';
+                }
+                ShopifyAPI.updateCartNote(note, function () {
+                    ShopifyAPI.updateCartAttributes({'language': language}, function() {langify.loader.reload();});});
+            });
         }
     };
     langify.loader = langify.loader || {
@@ -355,10 +355,11 @@
                     }
                     $switcherElem.find('.ly-languages-switcher-dropdown, .ly-languages-image-dropdown-switcher, .ly-languages-image-dropdown-icons-switcher, .ly-languages-links-switcher, .ly-languages-links-icons-switcher').attr('style', template.css);
                 },
-                _bindSwitcherEvents: function() { // Fonction pouractualiser switcher
-                    console.log("_bindSwitcherEvents !!!!"); // call when open page.
+                /*  call when open page, Fonction pouractualiser switcher */
+                _bindSwitcherEvents: function() {
+                    console.log("_bindSwitcherEvents !!!!");
                     // langify.helper.saveLanguage("ly56196"); // ES
-                    // langify.helper.saveLanguage("ly59501"); // EN, fait que page se refresh infiniment.
+                    // langify.helper.saveLanguage("ly59501"); // EN, fait que page se refresh infiniment (ES ou EN).
                     $('.ly-languages-image-dropdown-switcher, .ly-languages-image-dropdown-icons-switcher').click(function(e) {
                         console.log("Click on ly-languages-image-dropdown-switcher, .ly-languages-image-dropdown-icons-switcher");
                         e.preventDefault();
@@ -388,11 +389,18 @@
                         console.log("ly-languages-switcher-dropdown changed"); // Ne passe pas
                         langify.helper.saveLanguage($(this).val());
                     });
-                    /* Ajout perso: */
+                    /* Ajouts perso: */
                     $('#ly-languages-switcher').click(function (e) {
-                        console.log("Click on ly-languages-switcher");
+                        console.log("Click on ly-languages-switcher old"); // Ne passe pas par le new.
                         console.log("value language: ", this.value);
                         // langify.helper.saveLanguage(this.value);
+                    });
+                    $('#ly-languages-switcher-pascal').click(function (e) { // TODO: ouvrir menu avant.
+                        console.log("Click on ly-languages-switcher new");
+                        console.log("value language: ", this.value);
+                        // langify.helper.saveLanguage(this.value); // Fait que page se recharge. Actualise #ly-languages-switcher (ES, EN). Actualise langue texte aussi.
+                        // langify.helper.saveLanguage("ly59501");
+                        // langify.helper.saveLanguage("ly56196");
                     });
                 },
             };
