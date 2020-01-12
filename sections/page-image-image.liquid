@@ -1,0 +1,460 @@
+{% comment %}ly_global_begin{% endcomment %}{% include 'ly-global' %}{% comment %}ly_global_end{% endcomment %}
+{% assign blockList = '' %}
+{% for block in section.blocks %}
+    {% assign blockList = blockList | append: block.type | append:','  %}
+{% endfor %}
+{% assign blockArray = blockList | split: "," %}
+
+{% assign swaparoo = false %}
+{% if blockArray[0] != 'image1' and  blockArray[1] == 'image2' %}
+    {% assign swaparoo = true %}
+{% endif %}
+
+<div class="grid--full homepage-double equalOverflowHeight {{ section.settings.height }}{% if swaparoo %} grid--rev{% endif %}">
+    {% if swaparoo %}
+        {%- assign block1 = section.blocks[0] -%}
+        {%- assign block2 = section.blocks[1] -%}
+
+        {%- if block1.settings.image -%}
+            {%- assign background_image1 = block1.settings.image | img_url: '1800x' -%}
+        {%- else -%}
+            {%- assign background_image1 = 'blank.svg' | asset_url -%}
+        {%- endif -%}
+        <div class="grid__item large--one-half medium--one-half double__block homepage-image {{ block1.settings.color }} preventOverflow" {{ block1.shopify_attributes }}>
+            {% if block1.settings.link_text == '' and block1.settings.link and block1.settings.button_image == nil %}
+            <a href="{{ block1.settings.link }}">
+                {% endif %}
+                <div class="content--centered">
+                    <div class="{{ block1.settings.text_align }} preventOverflowContent">
+                        {% if block1.settings.button_image %}
+                            <a href="{{ block1.settings.link }}">
+                                <img src="{{ block1.settings.button_image | img_url: '1000x' }}" alt="{{ block1.settings.button_image.alt | default: block1.settings.link_text }}" class="image--flex" />
+                            </a>
+                        {% else %}
+                            {% unless block1.settings.title == '' %}<h1 class="home__subtitle">{% comment %}ly_code_replace_for_[ block1.settings.title | escape ]_begin{% endcomment %}{% include 'ly-title' with block1.settings %}{{ ly_translation | escape }}{% comment %}ly_code_replace_end{% endcomment %}</h1>{% endunless %}
+                            {% unless block1.settings.description == '' %}<p class="content--flex h5--body">{% comment %}ly_code_replace_for_[ block1.settings.description ]_begin{% endcomment %}{% include 'ly-description' with block1.settings %}{{ ly_translation }}{% comment %}ly_code_replace_end{% endcomment %}</p>{% endunless %}
+                            {% unless block1.settings.link_text == '' %}<a class="{{ block1.settings.button_style }}" href="{{ block1.settings.link }}">{{ block1.settings.link_text | escape }}</a>{% endunless %}
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="image-overlay image-overlay-{{ block1.settings.overlay_opacity }}"></div>
+                <div class="background-size-cover" style="background-image: url('{{ background_image }}');"></div>
+                {% if block1.settings.link_text == '' and block1.settings.link and block1.settings.button_image == nil %}
+            </a>
+            {% endif %}
+        </div>
+
+        {%- if block2.settings.image -%}
+            {%- assign background_image1 = block2.settings.image | img_url: '1800x' -%}
+        {%- else -%}
+            {%- assign background_image1 = 'blank.svg' | asset_url -%}
+        {%- endif -%}
+        <div class="grid__item large--one-half medium--one-half double__block homepage-image {{ block2.settings.color }} preventOverflow" {{ block2.shopify_attributes }}>
+            {% if block2.settings.link_text == '' and block2.settings.link and block2.settings.button_image == nil %}
+            <a href="{{ block2.settings.link }}">
+                {% endif %}
+                <div class="content--centered">
+                    <div class="{{ block2.settings.text_align }} preventOverflowContent">
+                        {% if block2.settings.button_image %}
+                            <a href="{{ block2.settings.link }}">
+                                <img src="{{ block2.settings.button_image | img_url: '1000x' }}" alt="{{ block2.settings.button_image.alt | default: block2.settings.link_text }}" class="image--flex" />
+                            </a>
+                        {% else %}
+                            {% unless block2.settings.title == '' %}<h1 class="home__subtitle">{% comment %}ly_code_replace_for_[ block2.settings.title | escape ]_begin{% endcomment %}{% include 'ly-title' with block2.settings %}{{ ly_translation | escape }}{% comment %}ly_code_replace_end{% endcomment %}</h1>{% endunless %}
+                            {% unless block2.settings.description == '' %}<p class="content--flex h5--body">{% comment %}ly_code_replace_for_[ block2.settings.description ]_begin{% endcomment %}{% include 'ly-description' with block2.settings %}{{ ly_translation }}{% comment %}ly_code_replace_end{% endcomment %}</p>{% endunless %}
+                            {% unless block2.settings.link_text == '' %}<a class="{{ block2.settings.button_style }}" href="{{ block2.settings.link }}">{{ block2.settings.link_text | escape }}</a>{% endunless %}
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="image-overlay image-overlay-{{ block2.settings.overlay_opacity }}"></div>
+                <div class="background-size-cover" style="background-image: url('{{ background_image }}');"></div>
+                {% if block2.settings.link_text == '' and block2.settings.link and block2.settings.button_image == nil %}
+            </a>
+            {% endif %}
+        </div>
+
+    {% endif %}
+    {% for block in section.blocks %}
+        {% case block.type %}
+        {% when 'image1' %}
+            {% unless swaparoo %}
+                {%- if block.settings.image1 -%}
+                    {%- assign background_image = block.settings.image1 | img_url: '1800x' -%}
+                {%- else -%}
+                    {%- assign background_image = 'blank.svg' | asset_url -%}
+                {%- endif -%}
+                <div class="grid__item large--one-half medium--one-half double__block homepage-image {{ block.settings.color }} preventOverflow" {{ block.shopify_attributes }}>
+                    {% if block.settings.link_text == '' and block.settings.link and block.settings.button_image == nil %}
+                    <a href="{{ block.settings.link }}">
+                        {% endif %}
+                        <div class="content--centered">
+                            <div class="{{ block.settings.text_align }} preventOverflowContent">
+                                {% if block.settings.button_image %}
+                                    <a href="{{ block.settings.link }}">
+                                        <img src="{{ block.settings.button_image | img_url: '1000x' }}" alt="{{ block.settings.button_image.alt | default: block.settings.link_text }}" class="image--flex" />
+                                    </a>
+                                {% else %}
+                                    {% unless block.settings.title == '' %}<h1 class="home__subtitle">{{ block.settings.title | escape }}</h1>{% endunless %}
+                                    {% unless block.settings.description == '' %}<p class="content--flex h5--body">{{ block.settings.description }}</p>{% endunless %}
+                                    {% unless block.settings.link_text == '' %}<a class="{{ block.settings.button_style }}" href="{{ block.settings.link }}">{{ block.settings.link_text | escape }}</a>{% endunless %}
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="image-overlay image-overlay-{{ block.settings.overlay_opacity }}"></div>
+                        <div class="background-size-cover" style="background-image: url('{{ background_image }}');"></div>
+                        {% if block.settings.link_text == '' and block.settings.link and block.settings.button_image == nil %}
+                    </a>
+                    {% endif %}
+                </div>
+            {% endunless %}
+
+        {% when 'image2' %}
+            {% unless swaparoo %}
+                {%- if block.settings.image2 -%}
+                    {%- assign background_image = block.settings.image2 | img_url: '1800x' -%}
+                {%- else -%}
+                    {%- assign background_image = 'blank.svg' | asset_url -%}
+                {%- endif -%}
+                <div class="grid__item large--one-half medium--one-half double__block homepage-image {{ block.settings.color }} preventOverflow" {{ block.shopify_attributes }}>
+                    {% if block.settings.link_text == '' and block.settings.link and block.settings.button_image == nil %}
+                    <a href="{{ block.settings.link }}">
+                        {% endif %}
+                        <div class="content--centered">
+                            <div class="{{ block.settings.text_align }} preventOverflowContent">
+                                {% if block.settings.button_image %}
+                                    <a href="{{ block.settings.link }}">
+                                        <img src="{{ block.settings.button_image | img_url: '1000x' }}" alt="{{ block.settings.button_image.alt | default: block.settings.link_text }}" class="image--flex" />
+                                    </a>
+                                {% else %}
+                                    {% unless block.settings.title == '' %}<h1 class="home__subtitle">{{ block.settings.title | escape }}</h1>{% endunless %}
+                                    {% unless block.settings.description == '' %}<p class="content--flex h5--body">{{ block.settings.description }}</p>{% endunless %}
+                                    {% unless block.settings.link_text == '' %}<a class="{{ block.settings.button_style }}" href="{{ block.settings.link }}">{{ block.settings.link_text | escape }}</a>{% endunless %}
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="image-overlay image-overlay-{{ block.settings.overlay_opacity }}"></div>
+                        <div class="background-size-cover" style="background-image: url('{{ background_image }}');"></div>
+                        {% if block.settings.link_text == '' and block.settings.link and block.settings.button_image == nil %}
+                    </a>
+                    {% endif %}
+                </div>
+            {% endunless %}
+
+        {% endcase %}
+    {% endfor %}
+</div>
+
+{% schema %}
+    {
+    "name": "Image and image",
+    "max_blocks": 2,
+    "settings": [
+    {
+    "type": "select",
+    "id": "height",
+    "label": "Section height",
+    "default": "use_screen_one_third",
+    "options": [
+    {
+    "value": "use_screen_full",
+    "label": "Full screen height"
+    },
+    {
+    "value": "use_screen_two_thirds",
+    "label": "Tall"
+    },
+    {
+    "value": "use_screen_one_half",
+    "label": "Medium"
+    },
+    {
+    "value": "use_screen_one_third",
+    "label": "Short"
+    },
+    {
+    "value": "use_screen_one_fifth",
+    "label": "Tiny"
+    }
+    ]
+    }
+    ],
+    "blocks": [
+    {
+    "type": "image1",
+    "name": "Image1",
+    "settings": [
+    {
+    "type": "image_picker",
+    "id": "image1",
+    "label": "Background image"
+    },
+    {
+    "type": "range",
+    "id": "overlay_opacity",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "label": "Image overlay opacity",
+    "info": "Increase contrast for legible text.",
+    "default": 15
+    },
+    {
+    "type": "header",
+    "content": "Text"
+    },
+    {
+    "type": "text",
+    "id": "title",
+    "label": "Headline"
+    },
+    {
+    "type": "textarea",
+    "id": "description",
+    "label": "Description"
+    },
+    {
+    "type": "select",
+    "id": "text_align",
+    "label": "Alignment",
+    "default": "text-center",
+    "options": [
+    {
+    "value": "text-left",
+    "label": "Align Left"
+    },
+    {
+    "value": "text-center",
+    "label": "Align Center"
+    },
+    {
+    "value": "text-right",
+    "label": "Align Right"
+    }
+    ]
+    },
+    {
+    "type": "select",
+    "id": "color",
+    "label": "Text color",
+    "default": "homepage--white",
+    "options": [
+    {
+    "value": "homepage--white",
+    "label": "White"
+    },
+    {
+    "value": "homepage--light",
+    "label": "Light"
+    },
+    {
+    "value": "homepage--splash",
+    "label": "Accent"
+    },
+    {
+    "value": "homepage--dark",
+    "label": "Dark"
+    }
+    ]
+    },
+    {
+    "type": "header",
+    "content": "Button"
+    },
+    {
+    "type": "text",
+    "id": "link_text",
+    "label": "Text"
+    },
+    {
+    "type": "url",
+    "id": "link",
+    "label": "Link"
+    },
+    {
+    "type": "select",
+    "id": "button_style",
+    "label": "Button style",
+    "default": "btn btn--clear btn--square uppercase",
+    "options": [
+    {
+    "value": "btn btn--splash uppercase",
+    "label": "Round"
+    },
+    {
+    "value": "btn btn--splash btn--square uppercase",
+    "label": "Square"
+    },
+    {
+    "value": "btn btn--clear uppercase",
+    "label": "Transparent round"
+    },
+    {
+    "value": "btn btn--clear btn--square uppercase",
+    "label": "Transparent square"
+    },
+    {
+    "value": "btn btn--outline btn--square uppercase",
+    "label": "Outlined square"
+    }
+    ]
+    },
+    {
+    "type": "header",
+    "content": "Button image (optional)"
+    },
+    {
+    "type": "image_picker",
+    "id": "button_image",
+    "label": "Button image",
+    "info": "1000 x 1000px .png max"
+    }
+    ]
+    },
+    {
+    "type": "image2",
+    "name": "Image2",
+    "settings": [
+    {
+    "type": "image_picker",
+    "id": "image2",
+    "label": "Background image"
+    },
+    {
+    "type": "range",
+    "id": "overlay_opacity",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "label": "Image overlay opacity",
+    "info": "Increase contrast for legible text.",
+    "default": 15
+    },
+    {
+    "type": "header",
+    "content": "Text"
+    },
+    {
+    "type": "text",
+    "id": "title",
+    "label": "Headline"
+    },
+    {
+    "type": "textarea",
+    "id": "description",
+    "label": "Description"
+    },
+    {
+    "type": "select",
+    "id": "text_align",
+    "label": "Alignment",
+    "default": "text-center",
+    "options": [
+    {
+    "value": "text-left",
+    "label": "Align Left"
+    },
+    {
+    "value": "text-center",
+    "label": "Align Center"
+    },
+    {
+    "value": "text-right",
+    "label": "Align Right"
+    }
+    ]
+    },
+    {
+    "type": "select",
+    "id": "color",
+    "label": "Text color",
+    "default": "homepage--white",
+    "options": [
+    {
+    "value": "homepage--white",
+    "label": "White"
+    },
+    {
+    "value": "homepage--light",
+    "label": "Light"
+    },
+    {
+    "value": "homepage--splash",
+    "label": "Accent"
+    },
+    {
+    "value": "homepage--dark",
+    "label": "Dark"
+    }
+    ]
+    },
+    {
+    "type": "header",
+    "content": "Button"
+    },
+    {
+    "type": "text",
+    "id": "link_text",
+    "label": "Text"
+    },
+    {
+    "type": "url",
+    "id": "link",
+    "label": "Link"
+    },
+    {
+    "type": "select",
+    "id": "button_style",
+    "label": "Button style",
+    "default": "btn btn--clear btn--square uppercase",
+    "options": [
+    {
+    "value": "btn btn--splash uppercase",
+    "label": "Round"
+    },
+    {
+    "value": "btn btn--splash btn--square uppercase",
+    "label": "Square"
+    },
+    {
+    "value": "btn btn--clear uppercase",
+    "label": "Transparent round"
+    },
+    {
+    "value": "btn btn--clear btn--square uppercase",
+    "label": "Transparent square"
+    },
+    {
+    "value": "btn btn--outline btn--square uppercase",
+    "label": "Outlined square"
+    }
+    ]
+    },
+    {
+    "type": "header",
+    "content": "Button image (optional)"
+    },
+    {
+    "type": "image_picker",
+    "id": "button_image",
+    "label": "Button image",
+    "info": "1000 x 1000px .png max"
+    }
+    ]
+    }
+    ],
+    "presets": [
+    {
+    "name": "Pages - Page image and image",
+    "category": "Image",
+    "blocks": [
+    {
+    "type": "image1"
+    },
+    {
+    "type": "image2"
+    }
+    ]
+    }
+    ]
+    }
+{% endschema %}

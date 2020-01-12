@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg7117"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="iconos_hombre_mujer.svg">
+  <defs
+     id="defs7119" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="375"
+     inkscape:cy="701.85157"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7122">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:9.36789417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:50.40000153;stroke-dasharray:none;stroke-opacity:1"
+       d="m 360.36417,455.02333 c 0,8.0807 0,16.16139 0,24.24207 0,1.73158 0.34702,3.48672 0,5.19473 -0.36578,1.80041 -1.79615,3.38783 -2.11081,5.19474 -0.39802,2.28557 0,4.61753 0,6.9263 0,4.61755 0,9.23508 0,13.85261 0,2.30878 0.34908,4.63538 0,6.92631 -0.35983,2.36145 -1.75099,4.56487 -2.11082,6.92631 -0.34908,2.29094 0,4.61753 0,6.9263 0,4.61755 0,9.23509 0,13.85261 0,11.54385 0,23.0877 0,34.63153 0,35.20874 0,70.41746 0,105.62618 0,110.24372 0,220.48744 0,330.73108"
+       id="path7251"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:8.67431259;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:50.40000153;stroke-dasharray:none;stroke-opacity:1"
+       d="m 79.62587,741.80868 c 47.84513,0 95.69024,0 143.53537,0 5.62885,0 11.25767,0 16.88652,0 7.03604,0 14.08088,0.24714 21.10814,0 12.81908,0.15078 25.26944,-2.49824 37.99466,-2.96933 28.07383,-1.03926 17.46219,0.9448 44.3271,0 7.06232,-0.24837 14.0721,-0.98976 21.10814,-1.48466 8.44326,-0.49488 16.86524,-1.22581 25.32977,-1.48466 7.73236,-0.23647 15.4793,0 23.21896,0 23.21896,0 46.43791,0 69.65687,0 7.03604,0 14.08006,0.23539 21.10814,0 57.70439,-1.93271 -9.43027,-1.48467 44.3271,-1.48467 4.92523,0 9.85048,0 14.7757,0 7.03605,0 14.07211,0 21.10815,0 4.22163,0 8.45784,0.24659 12.66488,0 4.26507,-0.24998 8.40628,-1.18511 12.66489,-1.48466 4.90078,-0.34469 9.85047,0 14.7757,0 2.11081,0 4.26262,-0.29116 6.33244,0 1.54275,0.21703 2.67888,1.26765 4.22163,1.48466 14.97142,0 1.2365,-1.0498 8.44326,1.48467 0.83692,0.29433 5.90091,-0.30351 6.33244,0 0.49752,0.34993 0,0.98978 0,1.48466"
+       id="path7255"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#060008;stroke-width:10.77816772;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:50.40000153;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path8130"
+       cy="236.4558"
+       cx="362.30878"
+       rx="245.13452"
+       ry="219.68381" />
+  </g>
+</svg>

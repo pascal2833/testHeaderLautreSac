@@ -1,0 +1,26 @@
+{% comment %}ly_global_begin{% endcomment %}{% include 'ly-global' %}{% comment %}ly_global_end{% endcomment %}
+
+
+<div id="shopify-section-impact-text">
+    <div class="impact-text">
+        <h1> {{ section.settings.impactText }} </h1>
+    </div>
+</div>
+
+{% schema %}
+    {
+    "name": "Impact text",
+    "class": "impact-text-container",
+    "settings": [
+    {
+    "id": "impactText",
+    "type": "text",
+    "label": "Enter an impact text:",
+    "default": "Un super text ..."
+    }
+    ]
+    }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}

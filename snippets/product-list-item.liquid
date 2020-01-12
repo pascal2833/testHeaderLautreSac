@@ -1,0 +1,78 @@
+{% comment %}ly_global_begin{% endcomment %}{% include 'ly-global' %}{% comment %}ly_global_end{% endcomment %}
+<!-- /snippets/product-list-item.liquid -->
+{% comment %}
+
+  This snippet is used to showcase each product during the loop,
+  'for product in collection.products' in collection.liquid.
+
+{% endcomment %}
+
+{% comment %}
+  Check if the product is on sale and set a variable to be used below.
+{% endcomment %}
+{% assign on_sale = false %}
+{% if product.compare_at_price > product.price %}
+  {% assign on_sale = true %}
+{% endif %}
+
+{% comment %}
+  Check if the product is sold out and set a variable to be used below.
+{% endcomment %}
+{% assign sold_out = true %}
+{% if product.available  %}
+  {% assign sold_out = false %}
+{% endif %}
+
+{% comment %}
+  Set a class for sold-out and on-sale items
+{% endcomment %}
+<div class="grid__item">
+
+  {% comment %}
+    Link to your product with the 'within: collection' filter for the link to be aware of the collection.
+    This allows you to create collection-based navigation on the product page.
+
+    Results of using 'within: collection':
+    - Instead of a URL with /products/product-handle
+      you would get /collections/collection-handle/products/product-handle
+
+    For more info on navigation within a collection
+      - http://docs.shopify.com/support/your-store/collections/how-to-navigate-within-a-collection
+
+  {% endcomment %}
+  <div class="grid large--display-table">
+    <div class="grid__item large--one-quarter large--display-table-cell medium--one-third small--one-third text-center">
+      <a href="{{ product.url | within: collection }}" class="grid__image">
+        <img src="{{ product.featured_image.src | img_url: 'medium' }}" alt="{{ product.featured_image.alt | escape }}">
+      </a>
+    </div>
+    <div class="grid__item large--three-quarters large--display-table-cell medium--two-thirds small--two-thirds">
+      <p class="h3--body"><a href="{{ product.url | within: collection }}">{% comment %}ly_code_replace_for_[ product.title ]_begin{% endcomment %}{% include 'ly-title' with product %}{{ ly_translation }}{% comment %}ly_code_replace_end{% endcomment %}</a></p>
+      <p class="{% if sold_out %} sold-out{% endif %}{% if on_sale %} on-sale{% endif %}">
+        <span class="price">
+          <!-- commented by mlveda-->
+          {% comment %}
+          {% if product.price_varies %}{% comment %}ly_i18n_replace_for_[ 'products.general.from' | t ]_begin{% endcomment %}{% capture ly_template %}{{ 'products.general.from' | t }}{% endcapture %}{% include 'ly-static-string' with '16756542' %}{% if ly_translation %}{% assign escape_content = true %}{% assign ly_template = ly_translation %}{% else %}{% assign escape_content = false %}{% endif %}{% if escape_content %}{{ ly_template | escape}}{% else %}{{ ly_template }}{% endif %}{% comment %}ly_i18n_replace_end{% endcomment %} {% endif %} 
+         {% endcomment %}
+          <span class="money">{{ product.price | money }}</span>
+        </span>
+        {% if sold_out %}
+        <br><strong>{% comment %}ly_i18n_replace_for_[ 'products.product.sold_out' | t ]_begin{% endcomment %}{% capture ly_template %}{{ 'products.product.sold_out' | t }}{% endcapture %}{% include 'ly-static-string' with '16756543' %}{% if ly_translation %}{% assign escape_content = true %}{% assign ly_template = ly_translation %}{% else %}{% assign escape_content = false %}{% endif %}{% if escape_content %}{{ ly_template | escape}}{% else %}{{ ly_template }}{% endif %}{% comment %}ly_i18n_replace_end{% endcomment %}</strong>
+        {% endif %}
+        {% if on_sale %}
+        <br><span class="compare-at"><span class="money">{{ product.compare_at_price | money }}</span></span>
+        {% endif %}
+        {% if product.metafields.spr.reviews %}
+          <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+        {% endif %}
+      </p>
+      <div class="rte">
+        {% if product.excerpt.size > 0 %}
+          {% comment %}ly_code_replace_for_[ product.excerpt ]_begin{% endcomment %}{% include 'ly-excerpt' with product %}{{ ly_translation }}{% comment %}ly_code_replace_end{% endcomment %}
+        {% else %}
+          <p>{% comment %}ly_code_replace_for_[ product.content | strip_html | truncatewords: 30 ]_begin{% endcomment %}{% include 'ly-content' with product %}{{ ly_translation | strip_html | truncatewords: 30 }}{% comment %}ly_code_replace_end{% endcomment %}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

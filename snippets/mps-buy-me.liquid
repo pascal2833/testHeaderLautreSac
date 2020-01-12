@@ -1,0 +1,27 @@
+{% comment %}ly_global_begin{% endcomment %}{% include 'ly-global' %}{% comment %}ly_global_end{% endcomment %}{% comment %}
+Do NOT change this file.
+{% endcomment %}
+
+<script>
+  window.bm_product = [];
+  {% if product %}
+  try{
+    window.bm_product = {{ product | json }};
+    window.bm_product.options = {{ product.options_with_values | json }};
+  }
+  catch(err){
+  }
+  {% endif %}
+
+  window.bm_remember_my_cart = [];
+  {% if customer %}
+  	{% unless customer.metafields.global.bm_remember_my_cart == blank %}
+  		window.bm_remember_my_cart = {% comment %}ly_code_replace_for_[ customer.metafields.global.bm_remember_my_cart ]_begin{% endcomment %}{% assign language = cart.attributes["language"] %}{% if language == nil %}{% assign language = shop.metafields["languages"]["default"] %}{% endif %}{% assign ns = language | append: 'global' %}{% assign key = 'bm_remember_my_cart' %}{% if customer.metafields[ns][key] %}{% assign ly_translation = customer.metafields[ns][key] %}{% else %}{% assign ly_translation =  customer.metafields.global.bm_remember_my_cart  %}{% endif %}{{ ly_translation }}{% comment %}ly_code_replace_end{% endcomment %};
+    {% endunless %}
+  {% endif %}
+</script>
+
+
+<!-- Main Script DON'T REMOVE THIS START -->
+<script async src="https://buy-me.makeprosimp.com/app/js/app.js?shop=lautre-sac.myshopify.com&key=2d517764a2cf44f1af22dbff1f117aa2"></script>
+<!-- Main Script DON'T REMOVE THIS END -->

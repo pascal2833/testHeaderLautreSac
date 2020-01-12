@@ -1,0 +1,1158 @@
+{% comment %}ly_global_begin{% endcomment %}{% include 'ly-global' %}{% comment %}ly_global_end{% endcomment %}<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+
+<div class="wrapper page-margin wrapper__our-stores">
+    <div class="wrapper__sidebar-map">
+        <div class='sidebar'>
+            <div class="sidebar__country">
+                <div class='heading'>
+                    <h5 class="heading__title" onclick="clickOnCountryName('spain')"><ly-as-16756739>Spain</ly-as-16756739></h5>
+                    <div class="heading__open-close heading__open-close--open" id="heading__open-spain" onclick="clickOnCountryName('spain')">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="17px" height="17px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;"
+                             xml:space="preserve">
+                            <g>
+                                <path d="M434.252,114.203l-21.409-21.416c-7.419-7.04-16.084-10.561-25.975-10.561c-10.095,0-18.657,3.521-25.7,10.561
+                                    L222.41,231.549L83.653,92.791c-7.042-7.04-15.606-10.561-25.697-10.561c-9.896,0-18.559,3.521-25.979,10.561l-21.128,21.416
+                                    C3.615,121.436,0,130.099,0,140.188c0,10.277,3.619,18.842,10.848,25.693l185.864,185.865c6.855,7.23,15.416,10.848,25.697,10.848
+                                    c10.088,0,18.75-3.617,25.977-10.848l185.865-185.865c7.043-7.044,10.567-15.608,10.567-25.693
+                                    C444.819,130.287,441.295,121.629,434.252,114.203z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="heading__open-close heading__open-close--close" id="heading__close-spain" onclick="clickOnCountryName('spain')">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="17px" height="17px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;"
+                             xml:space="preserve">
+                            <g>
+                                <path d="M433.968,278.657L248.387,92.79c-7.419-7.044-16.08-10.566-25.977-10.566c-10.088,0-18.652,3.521-25.697,10.566
+                                    L10.848,278.657C3.615,285.887,0,294.549,0,304.637c0,10.28,3.619,18.843,10.848,25.693l21.411,21.413
+                                    c6.854,7.23,15.42,10.852,25.697,10.852c10.278,0,18.842-3.621,25.697-10.852L222.41,213.271L361.168,351.74
+                                    c6.848,7.228,15.413,10.852,25.7,10.852c10.082,0,18.747-3.624,25.975-10.852l21.409-21.412
+                                    c7.043-7.043,10.567-15.608,10.567-25.693C444.819,294.545,441.205,285.884,433.968,278.657z"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div id='listings-spain' class='listings'></div>
+            </div>
+            <div class="sidebar__country">
+                <div class='heading'>
+                    <h5 class="heading__title"><ly-as-16756740>United States</ly-as-16756740></h5>
+                    <div class="heading__open-close heading__open-close--open" id="heading__open-EU" onclick="clickOnCountryName('EU')">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="17px" height="17px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;"
+                             xml:space="preserve">
+                            <g>
+                                <path d="M434.252,114.203l-21.409-21.416c-7.419-7.04-16.084-10.561-25.975-10.561c-10.095,0-18.657,3.521-25.7,10.561
+                                    L222.41,231.549L83.653,92.791c-7.042-7.04-15.606-10.561-25.697-10.561c-9.896,0-18.559,3.521-25.979,10.561l-21.128,21.416
+                                    C3.615,121.436,0,130.099,0,140.188c0,10.277,3.619,18.842,10.848,25.693l185.864,185.865c6.855,7.23,15.416,10.848,25.697,10.848
+                                    c10.088,0,18.75-3.617,25.977-10.848l185.865-185.865c7.043-7.044,10.567-15.608,10.567-25.693
+                                    C444.819,130.287,441.295,121.629,434.252,114.203z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="heading__open-close heading__open-close--close" id="heading__close-EU" onclick="clickOnCountryName('EU')">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="17px" height="17px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;"
+                             xml:space="preserve">
+                            <g>
+                                <path d="M433.968,278.657L248.387,92.79c-7.419-7.044-16.08-10.566-25.977-10.566c-10.088,0-18.652,3.521-25.697,10.566
+                                    L10.848,278.657C3.615,285.887,0,294.549,0,304.637c0,10.28,3.619,18.843,10.848,25.693l21.411,21.413
+                                    c6.854,7.23,15.42,10.852,25.697,10.852c10.278,0,18.842-3.621,25.697-10.852L222.41,213.271L361.168,351.74
+                                    c6.848,7.228,15.413,10.852,25.7,10.852c10.082,0,18.747-3.624,25.975-10.852l21.409-21.412
+                                    c7.043-7.043,10.567-15.608,10.567-25.693C444.819,294.545,441.205,285.884,433.968,278.657z"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div id='listings-EU' class='listings'></div>
+            </div>
+            <div class="sidebar__country">
+                <div class='heading'>
+                    <h5 class="heading__title" onclick="clickOnCountryName('spain')"><ly-as-16756741>Colombia</ly-as-16756741></h5>
+                    <div class="heading__open-close heading__open-close--open" id="heading__open-colombia" onclick="clickOnCountryName('colombia')">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="17px" height="17px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;"
+                             xml:space="preserve">
+                            <g>
+                                <path d="M434.252,114.203l-21.409-21.416c-7.419-7.04-16.084-10.561-25.975-10.561c-10.095,0-18.657,3.521-25.7,10.561
+                                    L222.41,231.549L83.653,92.791c-7.042-7.04-15.606-10.561-25.697-10.561c-9.896,0-18.559,3.521-25.979,10.561l-21.128,21.416
+                                    C3.615,121.436,0,130.099,0,140.188c0,10.277,3.619,18.842,10.848,25.693l185.864,185.865c6.855,7.23,15.416,10.848,25.697,10.848
+                                    c10.088,0,18.75-3.617,25.977-10.848l185.865-185.865c7.043-7.044,10.567-15.608,10.567-25.693
+                                    C444.819,130.287,441.295,121.629,434.252,114.203z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="heading__open-close heading__open-close--close" id="heading__close-colombia" onclick="clickOnCountryName('colombia')">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="17px" height="17px" viewBox="0 0 444.819 444.819" style="enable-background:new 0 0 444.819 444.819;"
+                             xml:space="preserve">
+                            <g>
+                                <path d="M433.968,278.657L248.387,92.79c-7.419-7.044-16.08-10.566-25.977-10.566c-10.088,0-18.652,3.521-25.697,10.566
+                                    L10.848,278.657C3.615,285.887,0,294.549,0,304.637c0,10.28,3.619,18.843,10.848,25.693l21.411,21.413
+                                    c6.854,7.23,15.42,10.852,25.697,10.852c10.278,0,18.842-3.621,25.697-10.852L222.41,213.271L361.168,351.74
+                                    c6.848,7.228,15.413,10.852,25.7,10.852c10.082,0,18.747-3.624,25.975-10.852l21.409-21.412
+                                    c7.043-7.043,10.567-15.608,10.567-25.693C444.819,294.545,441.205,285.884,433.968,278.657z"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div id='listings-colombia' class='listings'></div>
+            </div>
+        </div>
+        <div id='mapID' class='map'></div>
+    </div>
+</div>
+
+<script>
+    var withWindow;
+
+    // Data in geoJson format:
+    var initial_store = {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.1569871,
+                        41.3950771
+                    ]
+                },
+                "properties": {
+                    "name": "Cristina Castañer",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 934 14 24 28",
+                    "address": "Carrer del Rosselló, 230, 08008 Barcelona"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.1560177,
+                        41.4003361
+                    ]
+                },
+                "properties": {
+                    "name": "Amapola Vegan Shop",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 930 10 62 73",
+                    "address": "Travessera de Gràcia, 129, 08012 Barcelona"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.1733667,
+                        41.3951763
+                    ]
+                },
+                "properties": {
+                    "name": "The Good Store Barcelona",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 626 25 90 90",
+                    "address": "Carrer de València, 343, Bajos 2, 08009 Barcelona"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.156593,
+                        41.404315
+                    ]
+                },
+                "properties": {
+                    "name": "Velvet",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 931 26 94 73",
+                    "address": " Carrer de Verdi, 42, 08012 Barcelona"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -8.4018135,
+                        43.3696923
+                    ]
+                },
+                "properties": {
+                    "name": "Almacén Concept Store",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 981 92 49 73",
+                    "address": "Rúa Olmos, 7, 15003 A Coruña"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -2.3785782,
+                        41.84519
+                    ]
+                },
+                "properties": {
+                    "name": "Picnic",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 941 39 33 46",
+                    "address": "Calle Hermanos Moroy, 2, 26001 Logroño, La Rioja"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.6235347,
+                        41.6136895
+                    ]
+                },
+                "properties": {
+                    "name": "Kreativ",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 973 04 47 93",
+                    "address": "Avinguda de Blondel, 34, 25002 Lleida"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.7023991,
+                        40.5037932
+                    ]
+                },
+                "properties": {
+                    "name": "Velaire Moda",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 91 307 51 58",
+                    "address": "C/ Monasterio de Montesclaros, 6, 28049 Madrid"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.7087111,
+                        40.4242277
+                    ]
+                },
+                "properties": {
+                    "name": "Peces de Ciudad",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "",
+                    "address": "Calle Del Pez 38/40 28004 Madrid"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.6719304,
+                        40.431312
+                    ]
+                },
+                "properties": {
+                    "name": "The Dressroom",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 676 49 82 58",
+                    "address": "Calle de Montesa, 44, 28006 Madrid",
+                    "storeUrl": "https://thedressroominmadrid.wordpress.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -4.0034084,
+                        40.6303447
+                    ]
+                },
+                "properties": {
+                    "name": "Balumbaba",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 918 51 00 18",
+                    "address": "Av. de Honorio Lozano, 31, 28400 Collado Villalba, Madrid"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.6961738,
+                        40.4118334
+                    ]
+                },
+                "properties": {
+                    "name": "Miseria",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 915 45 74 36",
+                    "address": "Calle de la Verónica, 15, 28014 Madrid",
+                    "storeUrl": "http://www.miseriashop.es"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.714407,
+                        40.424416
+                    ]
+                },
+                "properties": {
+                    "name": "The Circular Project Shop",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 913 40 89 38",
+                    "address": "Calle Ventura Rodríguez, 22, 28008 Madrid"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        3.0166969,
+                        39.876074
+                    ]
+                },
+                "properties": {
+                    "name": "Món a part",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 659 033 212",
+                    "address": "Carrer de Miquel Bota Totxo, s/n, 07460 Pollença, Illes Balears, Mallorca"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -1.6988882,
+                        37.6767844
+                    ]
+                },
+                "properties": {
+                    "name": "Insólita Slow Concept",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 655 16 19 66 ",
+                    "address": "Lope Gisbert 36, 30800 Lorca, Murcia"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -8.78516,
+                        42.2641
+                    ]
+                },
+                "properties": {
+                    "name": "O COLMADO DE MARUJAMARÍA",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 886 09 50 61",
+                    "address": "Rúa Real, 24, 36940 Cangas, Pontevedra"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -0.8823463,
+                        41.6539569
+                    ]
+                },
+                "properties": {
+                    "name": "Shuave Shop",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 876 53 68 40",
+                    "address": "Calle Casto Méndez Núñez, 10, 50003 Zaragoza",
+                    "storeUrl": "www.shuave.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -81.798514,
+                        26.141932
+                    ]
+                },
+                "properties": {
+                    "name": "alice simone",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 239 595 7557",
+                    "address": "797 5th Avenue SouthNaples, FL 34102",
+                    "storeUrl": "https://www.alicesimone.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -86.012541,
+                        39.9570373
+                    ]
+                },
+                "properties": {
+                    "name": "Lily & Sparrow Boutique",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 317 578 2445",
+                    "address": "8890 East 116th StreetSuite 140Fishers, IN 46038",
+                    "storeUrl": "https://lilyandsparrowboutique.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -90.0640747,
+                        29.9610077
+                    ]
+                },
+                "properties": {
+                    "name": "Nadine Blake",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 504 529 4913",
+                    "address": "1036 Royal StreetNew Orleans, LA 70116",
+                    "storeUrl": "http://www.nadineblake.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -72.3943425,
+                        40.8833684
+                    ]
+                },
+                "properties": {
+                    "name": "Laviano Southampton",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 631 488 4489",
+                    "address": "77 Jobs LaneSouthampton, NY 11968",
+                    "storeUrl": "https://www.lavianodesignstudio.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -82.5588136,
+                        35.5956462
+                    ]
+                },
+                "properties": {
+                    "name": "Wake Foot Sanctuary",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 828 575 9799",
+                    "address": "1 Page AvenueAsheville, NC 28801"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -81.6357703,
+                        41.1585529
+                    ]
+                },
+                "properties": {
+                    "name": "The Dancer In You",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 330 608 4444",
+                    "address": "843 N CLEVELAND MASSILLON RD STE 5A FAIRLAWN, OH 44333"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -123.9342363,
+                        45.7189124
+                    ]
+                },
+                "properties": {
+                    "name": "Unfurl",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 503 368 8316",
+                    "address": "447 Laneda AveManzanita, OR 97130"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -74.0577666,
+                        4.6666674
+                    ]
+                },
+                "properties": {
+                    "name": "Merakiu Concept Store",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "",
+                    "address": "Calle 81 No 13-26"
+                }
+            }
+        ]
+    };
+    var stores_EU = {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -81.798514,
+                        26.141932
+                    ]
+                },
+                "properties": {
+                    "name": "alice simone",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 239 595 7557",
+                    "address": "797 5th Avenue SouthNaples, FL 34102",
+                    "storeUrl": "https://www.alicesimone.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -86.012541,
+                        39.9570373
+                    ]
+                },
+                "properties": {
+                    "name": "Lily & Sparrow Boutique",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 317 578 2445",
+                    "address": "8890 East 116th StreetSuite 140Fishers, IN 46038",
+                    "storeUrl": "https://lilyandsparrowboutique.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -90.0640747,
+                        29.9610077
+                    ]
+                },
+                "properties": {
+                    "name": "Nadine Blake",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 504 529 4913",
+                    "address": "1036 Royal StreetNew Orleans, LA 70116",
+                    "storeUrl": "http://www.nadineblake.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -72.3943425,
+                        40.8833684
+                    ]
+                },
+                "properties": {
+                    "name": "Laviano Southampton",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 631 488 4489",
+                    "address": "77 Jobs LaneSouthampton, NY 11968",
+                    "storeUrl": "https://www.lavianodesignstudio.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -82.5588136,
+                        35.5956462
+                    ]
+                },
+                "properties": {
+                    "name": "Wake Foot Sanctuary",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 828 575 9799",
+                    "address": "1 Page AvenueAsheville, NC 28801"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -81.6357703,
+                        41.1585529
+                    ]
+                },
+                "properties": {
+                    "name": "The Dancer In You",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 330 608 4444",
+                    "address": "843 N CLEVELAND MASSILLON RD STE 5A FAIRLAWN, OH 44333"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -123.9342363,
+                        45.7189124
+                    ]
+                },
+                "properties": {
+                    "name": "Unfurl",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(1) 503 368 8316",
+                    "address": "447 Laneda AveManzanita, OR 97130"
+                }
+            }
+        ]
+    };
+    var stores_Spain = {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.1569871,
+                        41.3950771
+                    ]
+                },
+                "properties": {
+                    "name": "Cristina Castañer",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 934 14 24 28",
+                    "address": "Carrer del Rosselló, 230, 08008 Barcelona"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.1560177,
+                        41.4003361
+                    ]
+                },
+                "properties": {
+                    "name": "Amapola Vegan Shop",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 930 10 62 73",
+                    "address": "Travessera de Gràcia, 129, 08012 Barcelona"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.1733667,
+                        41.3951763
+                    ]
+                },
+                "properties": {
+                    "name": "The Good Store Barcelona",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 626 25 90 90",
+                    "address": "Carrer de València, 343, Bajos 2, 08009 Barcelona"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        2.156593,
+                        41.404315
+                    ]
+                },
+                "properties": {
+                    "name": "Velvet",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 931 26 94 73",
+                    "address": " Carrer de Verdi, 42, 08012 Barcelona"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -8.4018135,
+                        43.3696923
+                    ]
+                },
+                "properties": {
+                    "name": "Almacén Concept Store",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 981 92 49 73",
+                    "address": "Rúa Olmos, 7, 15003 A Coruña"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -2.3785782,
+                        41.84519
+                    ]
+                },
+                "properties": {
+                    "name": "Picnic",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 941 39 33 46",
+                    "address": "Calle Hermanos Moroy, 2, 26001 Logroño, La Rioja"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.6235347,
+                        41.6136895
+                    ]
+                },
+                "properties": {
+                    "name": "Kreativ",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 973 04 47 93",
+                    "address": "Avinguda de Blondel, 34, 25002 Lleida"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.7023991,
+                        40.5037932
+                    ]
+                },
+                "properties": {
+                    "name": "Velaire Moda",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 91 307 51 58",
+                    "address": "C/ Monasterio de Montesclaros, 6, 28049 Madrid"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.7087111,
+                        40.4242277
+                    ]
+                },
+                "properties": {
+                    "name": "Peces de Ciudad",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "",
+                    "address": "Calle Del Pez 38/40 28004 Madrid"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.6719304,
+                        40.431312
+                    ]
+                },
+                "properties": {
+                    "name": "The Dressroom",
+                    "phoneFormatted": "(34) 676 49 82 58",
+                    "phone": "_ç_çç",
+                    "address": "Calle de Montesa, 44, 28006 Madrid",
+                    "storeUrl": "https://thedressroominmadrid.wordpress.com"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -4.0034084,
+                        40.6303447
+                    ]
+                },
+                "properties": {
+                    "name": "Balumbaba",
+                    "phoneFormatted": "(34) 918 51 00 18",
+                    "phone": "_ç_çç",
+                    "address": "Av. de Honorio Lozano, 31, 28400 Collado Villalba, Madrid"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.6961738,
+                        40.4118334
+                    ]
+                },
+                "properties": {
+                    "name": "Miseria",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 915 45 74 36",
+                    "address": "Calle de la Verónica, 15, 28014 Madrid",
+                    "storeUrl": "http://www.miseriashop.es"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -3.714407,
+                        40.424416
+                    ]
+                },
+                "properties": {
+                    "name": "The Circular Project Shop",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 913 40 89 38",
+                    "address": "Calle Ventura Rodríguez, 22, 28008 Madrid"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        3.0166969,
+                        39.876074
+                    ]
+                },
+                "properties": {
+                    "name": "Món a part",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 659 033 212",
+                    "address": "Carrer de Miquel Bota Totxo, s/n, 07460 Pollença, Illes Balears, Mallorca"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -1.6988882,
+                        37.6767844
+                    ]
+                },
+                "properties": {
+                    "name": "Insólita Slow Concept",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 655 16 19 66 ",
+                    "address": "Lope Gisbert 36, 30800 Lorca, Murcia"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -8.78516,
+                        42.2641
+                    ]
+                },
+                "properties": {
+                    "name": "O COLMADO DE MARUJAMARÍA",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "(34) 886 09 50 61",
+                    "address": "Rúa Real, 24, 36940 Cangas, Pontevedra"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -0.8823463,
+                        41.6539569
+                    ]
+                },
+                "properties": {
+                    "name": "Shuave Shop",
+                    "phoneFormatted": "(34) 876 53 68 40",
+                    "phone": "_ç_çç",
+                    "address": "Calle Casto Méndez Núñez, 10, 50003 Zaragoza",
+                    "storeUrl": "www.shuave.com"
+                }
+            }
+        ]
+    };
+    var stores_Colombia = {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -74.0577666,
+                        4.6666674
+                    ]
+                },
+                "properties": {
+                    "name": "Merakiu Concept Store",
+                    "phone": "_ç_çç",
+                    "phoneFormatted": "",
+                    "address": "Calle 81 No 13-26"
+                }
+            }]
+    };
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoicGFzY2FsMjgzMzEiLCJhIjoiY2pwampybXNlMDBuZjNra3VjcjRhOWZzYSJ9.cmesBJFv4N07n1oaCUv2ew';
+    // This adds the map to your page
+    var map = new mapboxgl.Map({
+        // container id specified in the HTML
+        container: 'mapID',
+        style: 'mapbox://styles/mapbox/light-v10',
+        // initial position in [lon, lat] format
+        center: [0, 0],
+        // initial zoom
+        zoom: 1
+    });
+
+    // This adds the data to the map
+    map.on('load', function (e) {
+        // This is where your '.addLayer()' used to be, instead add only the source without styling a layer
+        map.addSource("places", {
+            "type": "geojson",
+            "data": initial_store
+        });
+        buildLocationList(stores_EU, 'listings-EU');
+        buildLocationList(stores_Spain, 'listings-spain');
+        buildLocationList(stores_Colombia, 'listings-colombia');
+    });
+
+    // This is where your interactions with the symbol layer used to be
+    // Now you have interactions with DOM markers instead
+    stores_EU.features.forEach(function(marker, i) {
+        // Create an img element for the marker
+        var el = document.createElement('div');
+        el.id = "marker-" + i;
+        el.className = 'marker';
+        // Add markers to the map at all points
+        new mapboxgl.Marker(el, {offset: [0, 0]})
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map);
+
+        el.addEventListener('click', function(e){
+            // 1. Fly to the point
+            flyToStore(marker);
+            // 2. Close all other popups and display popup for clicked store
+            createPopUp(marker);
+            // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+            var activeItem = document.getElementsByClassName('active');
+            e.stopPropagation();
+            if (activeItem[0]) {
+                activeItem[0].classList.remove('active');
+            }
+            var listing = document.getElementById('listing-' + i);
+            listing.classList.add('active');
+        });
+    });
+    stores_Spain.features.forEach(function(marker, i) {
+        // Create an img element for the marker
+        var el = document.createElement('div');
+        el.id = "marker-" + i;
+        el.className = 'marker';
+        // Add markers to the map at all points
+        new mapboxgl.Marker(el, {offset: [0, 0]})
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map);
+
+        el.addEventListener('click', function(e){
+            // 1. Fly to the point
+            flyToStore(marker);
+            // 2. Close all other popups and display popup for clicked store
+            createPopUp(marker);
+            // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+            var activeItem = document.getElementsByClassName('active');
+            e.stopPropagation();
+            if (activeItem[0]) {
+                activeItem[0].classList.remove('active');
+            }
+            var listing = document.getElementById('listing-' + i);
+            listing.classList.add('active');
+        });
+    });
+    stores_Colombia.features.forEach(function(marker, i) {
+        // Create an img element for the marker
+        var el = document.createElement('div');
+        el.id = "marker-" + i;
+        el.className = 'marker';
+        // Add markers to the map at all points
+        new mapboxgl.Marker(el, {offset: [0, 0]})
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map);
+
+        el.addEventListener('click', function(e){
+            // 1. Fly to the point
+            flyToStore(marker);
+            // 2. Close all other popups and display popup for clicked store
+            createPopUp(marker);
+            // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+            var activeItem = document.getElementsByClassName('active');
+            e.stopPropagation();
+            if (activeItem[0]) {
+                activeItem[0].classList.remove('active');
+            }
+            var listing = document.getElementById('listing-' + i);
+            listing.classList.add('active');
+        });
+    });
+
+
+    function flyToStore(currentFeature) {
+        map.flyTo({
+            center: currentFeature.geometry.coordinates,
+            zoom: 15
+        });
+    }
+
+    function createPopUp(currentFeature) {
+        var popUps = document.getElementsByClassName('mapboxgl-popup');
+        if (popUps[0]) popUps[0].remove();
+        var popup = new mapboxgl.Popup({closeOnClick: false})
+            .setLngLat(currentFeature.geometry.coordinates)
+            .setHTML('<h5>' + currentFeature.properties.name + '</h5>' +
+                '<span>' + currentFeature.properties.address + '</span>')
+            .addTo(map);
+    }
+
+    function buildLocationList(data, listingName) {
+        for (i = 0; i < data.features.length; i++) {
+            var currentFeature = data.features[i];
+            var prop = currentFeature.properties;
+
+            var listings = document.getElementById(listingName);
+            var listing = listings.appendChild(document.createElement('div'));
+            listing.className = 'item';
+            listing.id = listingName + i;
+
+            var storeName = listing.appendChild(document.createElement('div'));
+            storeName.className = 'title';
+            storeName.innerHTML = prop.name;
+
+            var address = listing.appendChild(document.createElement('a'));
+            address.dataPosition = i;
+            address.href = '#';
+            address.title = 'Click to see this store on a map';
+            address.innerHTML = prop.address;
+            address.className = 'address';
+            if (prop.phone) {
+                var phone = listing.appendChild(document.createElement('div'));
+                phone.innerHTML += prop.phoneFormatted;
+            }
+
+            address.addEventListener('click', function (e) {
+                // Update the currentFeature to the store associated with the clicked link
+                var clickedListing = data.features[this.dataPosition];
+                withWindow = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                // Only for big screens:
+                if (withWindow > 768) {
+                    // 1. Fly to the point
+                    flyToStore(clickedListing);
+                    // 2. Close all other popups and display popup for clicked store
+                    createPopUp(clickedListing);
+                } else if (withWindow <= 768) {
+                    var long = data.features[this.dataPosition].geometry.coordinates[0];
+                    var lat = data.features[this.dataPosition].geometry.coordinates[1];
+                    window.open("https://www.google.com/maps/search/?api=1&query="+lat+","+long+"");
+                }
+                // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+                var activeItem = document.getElementsByClassName('active');
+                if (activeItem[0]) {
+                    activeItem[0].classList.remove('active');
+                }
+                this.parentNode.classList.add('active');
+            });
+        }
+    }
+
+    function clickOnCountryName(countryName) {
+        var listingsEl = document.getElementById('listings-' + countryName);
+        var headingOpenIcon = document.getElementById('heading__open-' + countryName);
+        var headingCloseIcon = document.getElementById('heading__close-' + countryName);
+        if (headingOpenIcon.style.display === '' || headingOpenIcon.style.display === 'block') {
+            headingOpenIcon.style.display = 'none';
+            headingCloseIcon.style.display = 'block';
+            listingsEl.style.display = 'block';
+        } else if (headingCloseIcon.style.display === '' || headingCloseIcon.style.display === 'block') {
+            headingCloseIcon.style.display = 'none';
+            headingOpenIcon.style.display = 'block';
+            listingsEl.style.display = 'none';
+        }
+    }
+
+</script>

@@ -1,0 +1,130 @@
+/*=========== banner image================*/ 
+.topbanner {
+   
+    display: none;
+  
+      
+} 
+
+ /*=========== /banner image================*/ 
+
+.mb_zero{
+margin-bottom:0;
+}
+.toplogo{
+    display: none;
+}
+
+.leftDataContainertoplogo {
+  
+    width: 100%;
+    display:inline-block; 
+    padding-top: 20px
+  
+}
+/*=========== logo size================*/ 
+.logoml {
+display:inline-block;
+}
+
+
+  .logoml {
+    max-height: 2.14286em;
+    }
+  
+
+/*=========== /logo size================*/ 
+
+
+
+/*=========== logo position ================*/ 
+.position-logo{
+  width: 100%;
+  display: inline-block;
+  text-align: left
+}
+/*=========== /logo position ================*/ 
+
+
+@media (min-width: 1000px){
+  /*=========== banner image media================*/ 
+
+  /*=========== /banner image media================*/ 
+  
+  
+  
+  /*=========== logo size media================*/ 
+  
+  
+  .logoml {
+    max-height: 2.85714em;
+    }
+  
+   
+   /*=========== /logo size media================*/ 
+  .leftDataContainer {
+    min-height: 100vh;
+  }
+  .rightDataContainer {
+    min-height: 100vh;
+  }
+}
+
+
+.checkoutLogoSpan .logoml {
+  background-image: url('//cdn.shopify.com/s/files/1/2784/7930/files/autre-sac-logo_2ba31420-a73f-448c-93f2-fb57d989c023.png?48277');
+  background-repeat: no-repeat;
+}
+.logoSpan {
+  display: none;
+}
+.shopNameSpan {
+  display: none;
+}
+
+
+
+.pageContainer p {
+  color: #a4a5a5;
+}
+
+.rightDataContainer {
+  background-color: #ffffff;
+}
+.rightDataContainer:after {
+  background-color: #ffffff;
+}
+.leftDataContainer {
+  padding-top: 45px;
+}
+
+input.greenBtn {
+  background-color: #60022f !important;
+}
+
+.pageContainer a {
+  color: #000000;
+}
+
+.pageContainer h2 {
+  color: #000;
+}
+
+.pageContainer input:focus {
+  box-shadow: 0 0 0 1px #000000;
+}
+
+.pageContainer select:focus {
+  box-shadow: 0 0 0 1px #000000;
+}
+
+.leftDataContainer {
+  background-color: #ffffff;
+}
+.leftDataContainer:after {
+  background-color: #ffffff;
+}
+
+.pageContainer .shippingMethod {
+  background-color: #fafafa;
+}

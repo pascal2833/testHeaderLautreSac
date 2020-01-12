@@ -1,0 +1,1561 @@
+{
+  "current": {
+    "tag_new_limit": 14,
+    "checkout_body_font": "Lato",
+    "mobile_atc_text": "AÑADIR",
+    "product_grid_style": "under",
+    "social_youtube_link": "",
+    "share_enable_facebook": true,
+    "homepage_background_light": "#ecdddd",
+    "mlvedaACS_roundDecimal": true,
+    "product_background_color": "#ffffff",
+    "checkout_header_image": "",
+    "color_splash": "#000000",
+    "social_instagram_link": "https:\/\/instagram.com\/lautresac",
+    "share_enable_google": false,
+    "checkout_body_background_color": "#ffffff",
+    "checkout_sidebar_background_image": "",
+    "color_footer_text": "#000000",
+    "checkout_use_sidebar_background_image": false,
+    "product_slideshow_arrows": "#000000",
+    "cart_vendor_enable": false,
+    "mlvedaACS_positionTop": "10px",
+    "twittercard_handle": "",
+    "font_title_capitalize": true,
+    "cart_continue_browsing": "shopify:\/\/collections\/all",
+    "base_font_px": 14,
+    "checkout_accent_color": "#000000",
+    "cart_quantity": true,
+    "social_home_image": "",
+    "sections": {
+      "page-rinoneras-text-image": {
+        "settings": {
+          "height": "use_screen_full"
+        },
+        "blocks": {
+          "1553722631620": {
+            "settings": {
+              "button_style": "btn black-and-white uppercase",
+              "homepage_bg_color": "homepage--white",
+              "link": "shopify:\/\/collections\/rinoneras",
+              "richtext": "<p>Versatilidad, dise&ntilde;o y sostenibilidad se encuentran en este peque&ntilde;o bolso de aspecto metalizado.<\/p>\n<p>Con un simple cambio de posici&oacute;n de su correa, puede utilizarse como bandolera, bolso de hombro o bolso de mano.&nbsp;<\/p>\n<p>Fabricado con fibras de papel 100% biodegradable, esta&nbsp;es una&nbsp;opci&oacute;n libre de ataduras para ti y para el planeta.&nbsp;<\/p>",
+              "title": "Máxima versatilidad en un solo bolso",
+              "link_text": "Ver Riñoneras",
+              "text_align": "text-center"
+            },
+            "type": "text"
+          },
+          "1553722699206": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1581.jpg",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 15,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          }
+        },
+        "type": "page-rinoneras-text-image",
+        "block_order": [
+          "1553722631620",
+          "1553722699206"
+        ]
+      },
+      "page-maletines-collection": {
+        "settings": {
+          "homepage_collection_color": "homepage--white",
+          "grid": 4,
+          "collection": "maletines-2",
+          "title": "Marie, en cuatro colores",
+          "rows": 1,
+          "show_view_all": false
+        },
+        "type": "page-maletines-collection"
+      },
+      "page-landing-eleonore-columns-1": {
+        "settings": {
+          "align_text": "text-center",
+          "homepage_columns_color": "homepage--white",
+          "title": "El bolso para tus escapadas del verano, por 49,50 EUR"
+        },
+        "blocks": {
+          "1561794159882": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W2912.jpg",
+              "enable_image": true,
+              "button_style": "btn black-and-white-little",
+              "link": "shopify:\/\/collections\/eleanor",
+              "button_link": "shopify:\/\/collections\/eleanor",
+              "text": "<p>Este bolso mediano tiene el tama&ntilde;o perfecto para una escapada de fin de semana, para ir al gimnasio o para el d&iacute;a a d&iacute;a. Su material ultra-ligero&nbsp;es IMPERMEABLE&nbsp;y muy RESISTENTE. Lleva&nbsp;asas de mano y un asa de hombro extraible.&nbsp;<\/p>",
+              "button_label": "",
+              "title": "Cómodo, ultra-ligero y resistente al agua",
+              "link_text": "VER MÁS"
+            },
+            "type": "text_block"
+          },
+          "1561794291594": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1014_11ded871-82d9-4530-8d68-020db61bb350.jpg",
+              "enable_image": true,
+              "button_style": "btn black-and-white-little",
+              "link": "",
+              "button_link": "shopify:\/\/collections\/eleanor",
+              "text": "<p>Fabricado&nbsp;a base de pl&aacute;sticos reciclados, este bolso est&aacute; hecho de forma responsable con el medio ambiente.<\/p>\n<p><\/p>\n<p>Adem&aacute;s ha sido fabricado dentro de un programa de empoderamiento femenino, que da oportunidad de empleo a mujeres de comunidades vulnerables en Colombia.&nbsp;<\/p>",
+              "button_label": "",
+              "title": "Hecho con materiales ecológicos",
+              "link_text": "VER MÁS"
+            },
+            "type": "text_block"
+          }
+        },
+        "type": "page-landing-eleonore-columns-1",
+        "block_order": [
+          "1561794159882",
+          "1561794291594"
+        ]
+      },
+      "blog": {
+        "settings": {
+          "layout": "list",
+          "image": "",
+          "parallax": true,
+          "overlay_opacity": 0,
+          "blog_show_meta": false,
+          "text_color": "homepage--light",
+          "tags": false
+        },
+        "type": "blog"
+      },
+      "1553848969253": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/carteras-veganas-barcelona-y-madrid.jpg",
+          "button_style": "btn btn--large btn--splash btn--square uppercase",
+          "color": "homepage--white",
+          "parallax": true,
+          "overlay_opacity": 0,
+          "link": "shopify:\/\/collections\/bolsos",
+          "description": "Fabricados con materiales ecológicos.",
+          "button_image": "",
+          "title": "Bolsos Veganos",
+          "link_text": "Ver Bolsos",
+          "height": "use_screen_full",
+          "text_align": "text-center"
+        },
+        "type": "page-maletines-banner-2"
+      },
+      "page-mochilas-collection": {
+        "settings": {
+          "homepage_collection_color": "homepage--white",
+          "grid": 1,
+          "collection": "mochilas-1",
+          "title": "",
+          "rows": 1,
+          "show_view_all": false
+        },
+        "type": "page-mochilas-collection"
+      },
+      "page-maletines-text-image": {
+        "settings": {
+          "height": "use_screen_full"
+        },
+        "blocks": {
+          "1553722038086": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1833.jpg",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 5,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          },
+          "1553721451622": {
+            "settings": {
+              "button_style": "btn black-and-white uppercase",
+              "homepage_bg_color": "homepage--white",
+              "link": "shopify:\/\/collections\/maletines-2",
+              "richtext": "<p>Este <strong>malet&iacute;n para<\/strong><strong> laptop<\/strong><strong> plano de dise&ntilde;o minimalista<\/strong> pesa apenas 500 gramos y tiene el&nbsp;tama&ntilde;o ideal para un ordenador de 13\".<\/p>\n<p><\/p>\n<p><em>El Malet&iacute;n para laptop Marie es el compa&ntilde;ero perfecto<\/em> para tus reuniones y viajes de trabajo. Puede llevarse colgado en el hombro o como malet&iacute;n de mano y trae una c&oacute;moda faja trasera para engancharlo en tu maleta de viaje.&nbsp;<\/p>",
+              "title": "Nunca antes un maletín para laptop fue tan cómodo",
+              "link_text": "Ver Maletines",
+              "text_align": "text-center"
+            },
+            "type": "text"
+          }
+        },
+        "type": "page-maletines-text-image",
+        "block_order": [
+          "1553721451622",
+          "1553722038086"
+        ]
+      },
+      "page-image-text": {
+        "settings": {
+          "height": "use_screen_two_thirds"
+        },
+        "blocks": {
+          "1521134223286": {
+            "settings": {
+              "button_style": "btn btn--clear btn--square uppercase",
+              "homepage_bg_color": "homepage--white",
+              "link": "",
+              "richtext": "<p>Esta&nbsp;es una historia de mujeres. Ana Mar&iacute;a y Mariana,&nbsp;dos generaciones de emprendedoras, cada una en una orilla del Atl&aacute;ntico y con un proyecto com&uacute;n: crear un producto innovador y responsable con&nbsp;su entorno.<\/p>\n<p>Nuestro equipo est&aacute; repartido entre Londres y Barcelona, donde nos inspiramos para la creaci&oacute;n de cada bolso. Nuestras ideas viajan a Bogot&aacute;, Colombia, donde cobran vida en las manos de mujeres artesanas que con&nbsp;pasi&oacute;n y&nbsp;talento hacen posible L'Autre Sac.<\/p>",
+              "title": "Nuestra historia",
+              "link_text": "",
+              "text_align": "text-left"
+            },
+            "type": "text"
+          },
+          "1521134234334": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/im_web04.png",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 5,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          }
+        },
+        "type": "page-image-text",
+        "block_order": [
+          "1521134234334",
+          "1521134223286"
+        ]
+      },
+      "page-sustainability-banner-2": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/joel-vodell-585710-unsplash.jpeg",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "color": "homepage--white",
+          "parallax": true,
+          "overlay_opacity": 5,
+          "link": "",
+          "description": "Y creemos que es posible vivir de otra manera.",
+          "button_image": "",
+          "title": "Nos importa el planeta",
+          "link_text": "",
+          "height": "use_screen_full",
+          "text_align": "text-center"
+        },
+        "type": "page-sustainability-banner-2"
+      },
+      "page-landing-eleonore-collection": {
+        "settings": {
+          "homepage_collection_color": "homepage--white",
+          "grid": 2,
+          "collection": "eleanor",
+          "title": "¡Aprovecha esta promoción!",
+          "rows": 2,
+          "show_view_all": false
+        },
+        "type": "page-landing-eleonore-collection"
+      },
+      "list-collections": {
+        "settings": {
+          "display_type": "all",
+          "grid": 4,
+          "rows": 1
+        },
+        "blocks": {
+          "1521127511621": {
+            "settings": {
+              "collection": ""
+            },
+            "type": "collection"
+          }
+        },
+        "type": "list-collections",
+        "block_order": [
+          "1521127511621"
+        ]
+      },
+      "page-bolsos-collection": {
+        "settings": {
+          "homepage_collection_color": "homepage--white",
+          "grid": 3,
+          "collection": "bolsos",
+          "title": "Bolsos veganos y ecológicos",
+          "rows": 5,
+          "show_view_all": false
+        },
+        "type": "page-bolsos-collection"
+      },
+      "page-mochilas-columns": {
+        "settings": {
+          "align_text": "text-center",
+          "homepage_columns_color": "homepage--white",
+          "title": ""
+        },
+        "blocks": {
+          "1571998668075": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Convertible_backpack2.jpg",
+              "enable_image": true,
+              "button_link": "shopify:\/\/products\/copy-of-aretha-mochila-gris",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          },
+          "1571998463940": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W7114.jpg",
+              "enable_image": true,
+              "button_link": "shopify:\/\/products\/copy-of-aretha-mochila-gris",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          }
+        },
+        "type": "page-mochilas-columns",
+        "block_order": [
+          "1571998463940",
+          "1571998668075"
+        ]
+      },
+      "collection": {
+        "settings": {
+          "collection_type_nav": false,
+          "collection_sorting": false,
+          "grid_setting_medium": 2,
+          "parallax": true,
+          "overlay_opacity": 30,
+          "grid_setting_large": 3,
+          "collection_standard_nav": false,
+          "image_height": "use_screen_one_fifth",
+          "collection_vendor_nav": false,
+          "collection_tag_nav": false,
+          "collection_custom_nav_list": "",
+          "text_color": "homepage--dark",
+          "grid_setting_small": 1
+        },
+        "type": "collection"
+      },
+      "article": {
+        "settings": {
+          "image_height": "use_screen_one_third",
+          "social": true,
+          "parallax": true,
+          "blog_show_meta": false,
+          "recent": true,
+          "tags": false,
+          "sidebar_tags": true
+        },
+        "type": "article"
+      },
+      "page-sustainability-image-text-2": {
+        "settings": {
+          "height": "use_screen_full"
+        },
+        "blocks": {
+          "1553725793943": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/drew-hays-206414-unsplash.jpeg",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 15,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          },
+          "1553725823956": {
+            "settings": {
+              "button_style": "btn btn--clear btn--square uppercase",
+              "homepage_bg_color": "homepage--light",
+              "link": "",
+              "richtext": "<p>Trabajamos en el desarrollo de nuevos materiales de la mano de prestigiosas entidades del &aacute;mbito cient&iacute;fico.<\/p>\n<p>Invertimos en I+D porque sabemos que existe un largo camino por recorrer en el campo de la moda sostenible y queremos contribuir con materiales &uacute;nicos e innovadores que re&uacute;nan belleza, dise&ntilde;o y responsabilidad ambiental.<\/p>\n<p>Sabemos que todas estas horas de laboratorio e investigaci&oacute;n servir&aacute;n para construir un planeta mejor.&nbsp;<\/p>",
+              "title": "Invertimos en I+D",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "text"
+          }
+        },
+        "type": "page-sustainability-image-text-2",
+        "block_order": [
+          "1553725793943",
+          "1553725823956"
+        ]
+      },
+      "header": {
+        "settings": {
+          "header_message_toShow": "Envíos Gratis 48-72 Horas |",
+          "main_menu_linklist": "menu-principal",
+          "header_enable_account": true,
+          "header_message_url": "",
+          "header_enable_search": false,
+          "meganav_link": "",
+          "search_only_products": false,
+          "logo": "shopify:\/\/shop_images\/lautresac-moda-sostenible-barcelona.png",
+          "logo_max_limit": 250,
+          "meganav_image": "shopify:\/\/shop_images\/lautresac.png",
+          "header_message": "Free Express Shipping",
+          "height": "header--medium"
+        },
+        "type": "header"
+      },
+      "page-mochilas-text-image": {
+        "settings": {
+          "height": "use_screen_two_thirds"
+        },
+        "blocks": {
+          "1553721131435": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1674_631904b1-87d4-4ffb-bdf1-11d4a0a6dbc6.jpg",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 15,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          },
+          "1553720917844": {
+            "settings": {
+              "button_style": "btn black-and-white uppercase",
+              "homepage_bg_color": "homepage--white",
+              "link": "shopify:\/\/products\/aretha-mochila-gris",
+              "richtext": "<p>69 EUR<\/p>\n<p><\/p>\n<p>Mochila y bandolera a la vez.<\/p>\n<p>Este bolso s&uacute;per funcional se puede transformar f&aacute;cilmente, recolocando los mosquetones de su asa.&nbsp;<\/p>\n<p>Su suave color gris se mezcla con el fucsia de la cremallera, d&aacute;ndole un sutil y alegre toque de color. &nbsp;<\/p>",
+              "title": "Aretha",
+              "link_text": "Ver más",
+              "text_align": "text-center"
+            },
+            "type": "text"
+          }
+        },
+        "type": "page-mochilas-text-image",
+        "block_order": [
+          "1553720917844",
+          "1553721131435"
+        ]
+      },
+      "1553730204928": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/D9W2657_e2613605-fda5-4aea-a4b1-b06ef923e5b4.jpg",
+          "video_link": "https:\/\/youtu.be\/by8qQS2TrQQ",
+          "color": "homepage--white",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "description": "",
+          "button_image": "",
+          "title": "",
+          "height": "use_screen_full",
+          "text_align": "text-center"
+        },
+        "disabled": true,
+        "type": "index-video"
+      },
+      "page-mochilas-image-text": {
+        "settings": {
+          "height": "use_screen_full"
+        },
+        "blocks": {
+          "1571997871100": {
+            "settings": {
+              "button_style": "btn black-and-white uppercase",
+              "homepage_bg_color": "homepage--white",
+              "link": "shopify:\/\/products\/copy-of-aretha-mochila-gris",
+              "richtext": "<p>79 EUR<\/p>\n<p><\/p>\n<p>Esta mochila mezcla funcionalidad y elegancia en un bolso ligero, de dise&ntilde;o minimalista. Nuestra mochila EMMA se ha fabricado&nbsp; combinando novedosos materiales, todos de m&aacute;ximo respeto con el planeta.&nbsp;<\/p>\n<p>Bolso en tejido de algod&oacute;n reciclado, tapa en pulpa de celulosa y tiras de&nbsp;pl&aacute;stico reciclado.&nbsp;<\/p>",
+              "title": "EMMA",
+              "link_text": "VER MÁS",
+              "text_align": "text-center"
+            },
+            "type": "text"
+          },
+          "1571997748946": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Vegan_Backpack1.jpg",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 15,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          }
+        },
+        "type": "page-mochilas-image-text",
+        "block_order": [
+          "1571997748946",
+          "1571997871100"
+        ]
+      },
+      "page-bolsos-collectionb": {
+        "settings": {
+          "homepage_collection_color": "homepage--white",
+          "grid": 3,
+          "collection": "tier-2-para-home-bolsos",
+          "title": "",
+          "rows": 1,
+          "show_view_all": false
+        },
+        "type": "page-bolsos-collectionb"
+      },
+      "1553730718397": {
+        "settings": {
+          "align_text": "text-center",
+          "homepage_columns_color": "homepage--white",
+          "title": ""
+        },
+        "blocks": {
+          "1553730718397-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1632.jpg",
+              "enable_image": true,
+              "button_link": "shopify:\/\/pages\/rinoneras",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          },
+          "1553730718397-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1038.jpg",
+              "enable_image": true,
+              "button_link": "shopify:\/\/pages\/rinoneras",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          }
+        },
+        "type": "page-columns",
+        "block_order": [
+          "1553730718397-1",
+          "1553730718397-0"
+        ]
+      },
+      "page-bolsos-banner": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/D9W2528.jpg",
+          "button_style": "btn black-and-white uppercase",
+          "color": "homepage--dark",
+          "parallax": false,
+          "overlay_opacity": 10,
+          "link": "shopify:\/\/collections\/bolsos",
+          "description": "Diseño y sostenibilidad pueden ir de la mano",
+          "button_image": "",
+          "title": "Bolsos veganos para mujer",
+          "link_text": "Ver Bolsos",
+          "height": "use_screen_full",
+          "text_align": "text-left"
+        },
+        "type": "page-bolsos-banner"
+      },
+      "footer": {
+        "settings": {
+          "footer_payment_enable": true,
+          "footer_image": "shopify:\/\/shop_images\/lautresac.png",
+          "footer_social_enable": true,
+          "footer_secondary_linklist": ""
+        },
+        "blocks": {
+          "linklist": {
+            "settings": {
+              "linklist": "legal-1"
+            },
+            "type": "linklist"
+          },
+          "newsletter": {
+            "settings": {
+              "text": "Mantente al tanto de nuestras mejores historias, novedades y descuentos"
+            },
+            "type": "newsletter"
+          },
+          "1519655523354": {
+            "settings": {
+              "linklist": "menu-principal"
+            },
+            "type": "linklist"
+          },
+          "1520951582623": {
+            "settings": {
+              "text": "<p>Para cualquier duda, ll&aacute;manos al&nbsp;628 98 71 06 o escr&iacute;benos a <a href=\"mailto:info@lautresac.com\" title=\"mailto:info@lautresac.com\">info@lautresac.com<\/a><\/p>\n<p><\/p>",
+              "title": "Contacto"
+            },
+            "type": "text"
+          }
+        },
+        "type": "footer",
+        "block_order": [
+          "1519655523354",
+          "linklist",
+          "newsletter",
+          "1520951582623"
+        ]
+      },
+      "page-banner-2": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/autre-sac-como-lo-hacemos.jpg",
+          "button_style": "btn btn--large btn--splash uppercase",
+          "color": "homepage--white",
+          "parallax": true,
+          "overlay_opacity": 30,
+          "link": "shopify:\/\/pages\/nuestra-fabrica",
+          "description": "Los bolsos de L’Autre Sac cobran vida en Colombia. Trabajamos con talleres que emplean de forma responsable a mujeres en riesgo de exclusión.",
+          "button_image": "",
+          "title": "NUESTRA FORMA DE HACER",
+          "link_text": "Visita nuestra fábrica",
+          "height": "use_screen_full",
+          "text_align": "text-center"
+        },
+        "type": "page-banner-2"
+      },
+      "page-image-text-2": {
+        "settings": {
+          "height": "use_screen_full"
+        },
+        "blocks": {
+          "1521135407567": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/autre-sac-educacion_4e52b60e-e87e-41d2-a939-c7563c378dc9.jpg",
+              "button_style": "btn btn--outline btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 0,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          },
+          "1521135457718": {
+            "settings": {
+              "button_style": "btn black-and-white uppercase",
+              "homepage_bg_color": "homepage--light",
+              "link": "shopify:\/\/pages\/beca-lautre-sac-para-el-empoderamiento-femenino",
+              "richtext": "<p>Con cada bolso que t&uacute; compras, L&rsquo;Autre Sac paga un d&iacute;a de educaci&oacute;n secundaria de una ni&ntilde;a en situaci&oacute;n de vulnerabilidad en Colombia.<\/p>\n<p><\/p>\n<p>Creemos en la educaci&oacute;n como herramienta de empoderamiento. El camino para abrirles el mundo, alimentar su autoestima y su seguridad en s&iacute; mismas.<\/p>",
+              "title": "Educar para empoderar",
+              "link_text": "Conoce nuestra beca",
+              "text_align": "text-left"
+            },
+            "type": "text"
+          }
+        },
+        "type": "page-image-text-2",
+        "block_order": [
+          "1521135407567",
+          "1521135457718"
+        ]
+      },
+      "page-maletines-banner": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/banner_01.png",
+          "button_style": "btn black-and-white uppercase",
+          "color": "homepage--dark",
+          "parallax": false,
+          "overlay_opacity": 5,
+          "link": "shopify:\/\/collections\/maletines-2",
+          "description": "Porque la esencia de la elegancia es la comodidad.",
+          "button_image": "",
+          "title": "Marie | Maletín para laptop",
+          "link_text": "Ver Maletines",
+          "height": "use_screen_two_thirds",
+          "text_align": "text-right"
+        },
+        "type": "page-maletines-banner"
+      },
+      "page-landing-eleonore-banner": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/D9W1701.jpg",
+          "button_style": "btn black-and-white uppercase",
+          "color": "homepage--white",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "link": "shopify:\/\/collections\/eleanor",
+          "description": "¡50% de descuento, sólo por esta semana! Gastos de envío gratis.",
+          "button_image": "",
+          "title": "tu bolso Eleanor, a mitad de precio",
+          "link_text": "Ver más",
+          "height": "use_screen_full",
+          "text_align": "text-center"
+        },
+        "type": "page-landing-eleonore-banner"
+      },
+      "page-text-image": {
+        "settings": {
+          "height": "use_screen_two_thirds"
+        },
+        "blocks": {
+          "1521134540568": {
+            "settings": {
+              "button_style": "btn btn--clear btn--square uppercase",
+              "homepage_bg_color": "homepage--light",
+              "link": "",
+              "richtext": "<p>Creemos que no es necesario elegir entre belleza y sostenibilidad. Cada uno de nuestros bolsos refleja esa pasi&oacute;n&nbsp;por crear&nbsp;productos responsables con el medio ambiente y que a su vez respondan a un estricto criterio de est&eacute;tica y dise&ntilde;o.&nbsp;<\/p>\n<p><\/p>\n<p>Mila, Directora Creativa de L'Autre Sac est&aacute; en constante b&uacute;squeda de ese objetivo: tener el producto m&aacute;s sostenible y &eacute;tico posible sin sacrificar dise&ntilde;o.&nbsp;<\/p>\n<p><\/p>",
+              "title": "Nuestra Esencia",
+              "link_text": "",
+              "text_align": "text-left"
+            },
+            "type": "text"
+          },
+          "1521134599758": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/im_web03.png",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 0,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          }
+        },
+        "type": "page-text-image",
+        "block_order": [
+          "1521134540568",
+          "1521134599758"
+        ]
+      },
+      "page-bolsos-banner-2": {
+        "settings": {
+          "image": "",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "color": "homepage--white",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "link": "",
+          "description": "This area is used to describe your store.",
+          "button_image": "",
+          "title": "Image with text overlay",
+          "link_text": "View products",
+          "height": "use_screen_two_thirds",
+          "text_align": "text-center"
+        },
+        "type": "page-bolsos-banner-2"
+      },
+      "page-mochilas-video": {
+        "settings": {
+          "image": "",
+          "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "color": "homepage--white",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "description": "This area is used to describe your video’s details.",
+          "button_image": "",
+          "title": "Featured video",
+          "height": "use_screen_two_thirds",
+          "text_align": "text-center"
+        },
+        "type": "page-mochilas-video"
+      },
+      "1553732598239": {
+        "settings": {
+          "align_text": "text-center",
+          "homepage_columns_color": "homepage--white",
+          "title": ""
+        },
+        "blocks": {
+          "1553732598239-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/moda-sostenible-madrid.jpg",
+              "enable_image": true,
+              "button_link": "shopify:\/\/collections\/bolsos",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          },
+          "1553732598239-1": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bolsos-veganos-mujer.jpg",
+              "enable_image": true,
+              "button_link": "shopify:\/\/collections\/bolsos",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          }
+        },
+        "type": "page-columns",
+        "block_order": [
+          "1553732598239-0",
+          "1553732598239-1"
+        ]
+      },
+      "page-bolsos-text-image": {
+        "settings": {
+          "height": "use_screen_full"
+        },
+        "blocks": {
+          "1556827379565": {
+            "settings": {
+              "button_style": "btn btn--clear btn--square uppercase",
+              "homepage_bg_color": "homepage--white",
+              "link": "",
+              "richtext": "<p>Introducimos&nbsp;novedosos materiales que son alternativas al cuero y a la vez son sostenibles y libres de crueldad animal. Por ejemplo, utilizamos&nbsp;&nbsp;pulpa de celulosa proveniente de &aacute;rboles de bosques protegidos. Este novedoso material vegano luego es recubierto por una capa de l&aacute;tex natural que le da una apariencia brillante, sin nada que envidiar al cuero tradicional en cuanto a cuerpo y textura.<\/p>\n<p>&nbsp;<\/p>\n<p>Tambi&eacute;n hemos introducido uno de los materiales m&aacute;s innovadores en el campo de la moda sostenible: el Pi&ntilde;atex&reg;. Este cuero vegano est&aacute; fabricado con desechos de la hoja de la pi&ntilde;a. Es una novedosa alternativa, con una fant&aacute;stica apariencia y un proceso de producci&oacute;n muy sostenible.<\/p>\n<p>&nbsp;<\/p>\n<p>Todos los materiales que utilizamos son muy resistentes y duraderos sin da&ntilde;ar el&nbsp;medio ambiente.<\/p>",
+              "title": "Materiales respetuosos con el medio ambiente",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "text"
+          },
+          "1556827387538": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W2124.jpg",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 15,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          }
+        },
+        "type": "page-bolsos-text-image",
+        "block_order": [
+          "1556827379565",
+          "1556827387538"
+        ]
+      },
+      "page-banner": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/13.jpg",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "color": "homepage--white",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "link": "",
+          "description": "Bolsos de diseño hechos  en materiales veganos y sostenibles. \nFabricados por mujeres artesanas, nuestros productos contribuyen al empoderamiento de la mujer a través del empleo y de la educación.",
+          "button_image": "",
+          "title": "Fashionably Sustainable",
+          "link_text": "",
+          "height": "use_screen_full",
+          "text_align": "text-center"
+        },
+        "type": "page-banner"
+      },
+      "page-maletines-banner-2": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/D9W2113.jpg",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "color": "homepage--white",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "link": "",
+          "description": "",
+          "button_image": "",
+          "title": "",
+          "link_text": "",
+          "height": "use_screen_two_thirds",
+          "text_align": "text-center"
+        },
+        "type": "page-maletines-banner-2"
+      },
+      "product": {
+        "settings": {
+          "product_nav_enable": false,
+          "product_reviews_enable": false,
+          "info_page": "",
+          "related_products_enable": false,
+          "zoom_enable": true,
+          "product_breadcrumbs": false,
+          "tabs_position": "sidebar",
+          "show_quantity": true,
+          "product_show_vendor": false
+        },
+        "blocks": {
+          "1520977048413": {
+            "settings": {
+              "raw_content": "<p>L'Autre Sac est&aacute; comprometido con el empoderamiento femenino a trav&eacute;s del empleo y de la educaci&oacute;n.<\/p>\n<p>Este bolso ha sido fabricado de forma responsable en Colombia por mujeres en riesgo de exclusi&oacute;n laboral y social.<\/p>\n<p>Por cada producto que compras, L&rsquo;Autre Sac paga&nbsp;un d&iacute;a de educaci&oacute;n secundaria de una ni&ntilde;a en situaci&oacute;n de vulnerabilidad en Colombia.<\/p>",
+              "title": "Nuestro Compromiso"
+            },
+            "type": "tab_richtext"
+          },
+          "1520977059398": {
+            "settings": {
+              "raw_content": "<p>Tu bolso de L&rsquo;Autre Sac no necesita un cuidado diferente al que dar&iacute;as a un bolso de piel.&nbsp;<\/p>\n<p>Con el uso, tu bolso se ver&aacute; arrugado. Esto es parte de su encanto, como las arrugas de mucho sonre&iacute;r.<\/p>\n<p>Nuestros bolsos son lavables. Puedes introducirlos en la lavadora, en ciclo delicado y con agua fr&iacute;a.&nbsp;<\/p>",
+              "title": "Cómo cuidar tu bolso"
+            },
+            "type": "tab_richtext"
+          }
+        },
+        "type": "product",
+        "block_order": [
+          "1520977059398",
+          "1520977048413"
+        ]
+      },
+      "page-sustainability-banner": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Cows.jpg",
+          "button_style": "btn btn--large btn--clear btn--square uppercase",
+          "color": "homepage--white",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "link": "",
+          "description": "Nuestros bolsos son veganos. Rechazamos la crueldad animal y creemos en una moda responsable, que convive en armonía con su entorno.  ",
+          "button_image": "",
+          "title": "Nos Importan los animales",
+          "link_text": "",
+          "height": "use_screen_full",
+          "text_align": "text-center"
+        },
+        "type": "page-sustainability-banner"
+      },
+      "page-sustainability-image-text": {
+        "settings": {
+          "height": "use_screen_two_thirds"
+        },
+        "blocks": {
+          "1553724624436": {
+            "settings": {
+              "button_style": "btn btn--clear btn--square uppercase",
+              "homepage_bg_color": "homepage--white",
+              "link": "",
+              "richtext": "<p>Utilizamos materiales alternativos a la piel animal, altamente durables y resistentes y sin los perjuicios medioambientales de la piel sint&eacute;tica.&nbsp;<\/p>\n<p>Nuestros&nbsp;materiales son de origen vegetal y biodegradables o bien materiales sint&eacute;ticos libres de plastificantes y 100% reciclables.<\/p>",
+              "title": "Una alternativa al cuero",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "text"
+          },
+          "1553724968358": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/im_web02.png",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 0,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          }
+        },
+        "type": "page-sustainability-image-text",
+        "block_order": [
+          "1553724624436",
+          "1553724968358"
+        ]
+      },
+      "1553728183203": {
+        "settings": {
+          "autoplay_speed": 5,
+          "autoplay": false,
+          "height": "use_screen_full"
+        },
+        "blocks": {
+          "1553728183203-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W6495-compressor.jpg",
+              "button_style": "btn black-and-white uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 10,
+              "link": "shopify:\/\/collections\/products-available-nov-2019",
+              "description": "Because you can have it all.",
+              "button_image": "",
+              "title": "Fashionably Sustainable",
+              "link_text": "Ver Colección",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          }
+        },
+        "type": "index-slideshow",
+        "block_order": [
+          "1553728183203-0"
+        ]
+      },
+      "1553849176407": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/D9W2375_affd277c-e9a1-43a1-8494-4b9604b33d2d.jpg",
+          "button_style": "btn btn--large btn--splash btn--square uppercase",
+          "color": "homepage--white",
+          "parallax": true,
+          "overlay_opacity": 0,
+          "link": "shopify:\/\/collections\/all",
+          "description": "Comprometida con un mundo mejor.",
+          "button_image": "",
+          "title": "Moda ética y Sostenible",
+          "link_text": "Ver Colección",
+          "height": "use_screen_full",
+          "text_align": "text-center"
+        },
+        "type": "page-maletines-banner-2"
+      },
+      "index-product": {
+        "settings": {
+          "info_page": "",
+          "home_product": "",
+          "zoom_enable": false,
+          "tabs_position": "below",
+          "title": "Featured product",
+          "show_quantity": true,
+          "homepage_product_color": "homepage--white",
+          "product_show_vendor": false
+        },
+        "type": "index-product"
+      },
+      "page-rinoneras-video": {
+        "settings": {
+          "image": "",
+          "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "color": "homepage--white",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "description": "This area is used to describe your video’s details.",
+          "button_image": "",
+          "title": "Featured video",
+          "height": "use_screen_two_thirds",
+          "text_align": "text-center"
+        },
+        "type": "page-rinoneras-video"
+      },
+      "page-sustainability-text-image": {
+        "settings": {
+          "height": "use_screen_two_thirds"
+        },
+        "blocks": {
+          "1553725004176": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/im_web01.png",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 0,
+              "link": "",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          },
+          "1553725036169": {
+            "settings": {
+              "button_style": "btn btn--clear btn--square uppercase",
+              "homepage_bg_color": "homepage--light",
+              "link": "",
+              "richtext": "<p>Pulpa de celulosa proveniente de bosques protegidos. Este papel es 100% biodegradable.<\/p>\n<p><br>Papel Tyvek&reg; (Polietureno de Alta Densidad) 100% reciclable y libre de plastificantes.<\/p>\n<p><br>Pi&ntilde;atex&reg; (piel de pi&ntilde;a) hecha con fibras de celulosa extra&iacute;da de los residuos de la hoja de la pi&ntilde;a.<br><br><\/p>",
+              "title": "Nuestros Materiales",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "text"
+          }
+        },
+        "type": "page-sustainability-text-image",
+        "block_order": [
+          "1553725004176",
+          "1553725036169"
+        ]
+      },
+      "page-maletines-columns": {
+        "settings": {
+          "align_text": "text-center",
+          "homepage_columns_color": "homepage--white",
+          "title": ""
+        },
+        "blocks": {
+          "1553722151990": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1026.jpg",
+              "enable_image": true,
+              "button_link": "",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          },
+          "1553722111620": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1693_9f722041-a12f-4166-aa28-94f5bfd0247a.jpg",
+              "enable_image": true,
+              "button_link": "",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          }
+        },
+        "type": "page-maletines-columns",
+        "block_order": [
+          "1553722111620",
+          "1553722151990"
+        ]
+      },
+      "page-rinoneras-collection": {
+        "settings": {
+          "homepage_collection_color": "homepage--white",
+          "grid": 2,
+          "collection": "rinoneras",
+          "title": "",
+          "rows": 2,
+          "show_view_all": false
+        },
+        "type": "page-rinoneras-collection"
+      },
+      "1553731462153": {
+        "settings": {
+          "height": "use_screen_full"
+        },
+        "blocks": {
+          "1553731462153-0": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W6697.jpg",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 15,
+              "link": "shopify:\/\/collections\/bolsos",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-center"
+            },
+            "type": "image"
+          },
+          "1553737350443": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W0989_2ae9a8be-d8fa-44d3-bf64-4114c036ddf7.jpg",
+              "button_style": "btn black-and-white uppercase",
+              "color": "homepage--white",
+              "overlay_opacity": 15,
+              "link": "shopify:\/\/collections\/bolsos",
+              "description": "",
+              "button_image": "",
+              "title": "",
+              "link_text": "",
+              "text_align": "text-right"
+            },
+            "type": "image"
+          }
+        },
+        "type": "page-mochilas-text-image",
+        "block_order": [
+          "1553731462153-0",
+          "1553737350443"
+        ]
+      },
+      "page-bolsos-columns": {
+        "settings": {
+          "align_text": "text-center",
+          "homepage_columns_color": "homepage--white",
+          "title": ""
+        },
+        "blocks": {
+          "1558555681073": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W6256.jpg",
+              "enable_image": true,
+              "button_link": "shopify:\/\/products\/daria-bolso-bandolera-rectangular-camel",
+              "text": "<p>Daria tiene el tama&ntilde;o perfecto.&nbsp;Este bolso mediano que puede llevarse como bolso de hombro o bandolera, se adapta a cualquier situaci&oacute;n. Viene&nbsp;genial para una cena o un evento formal, y tambi&eacute;n es lo suficientemente <em>casual<\/em> para llevarlo de d&iacute;a a donde haga falta.<\/p>\n<p>Viene con&nbsp;dos asas que puedes alternar: una tira tubular del mismo color del bolso y una cinta de algod&oacute;n de colores.<\/p>\n<p>Disponible en negro, camel y azul marino. &nbsp;<\/p>",
+              "button_label": "",
+              "title": "Daria: Un bolso sostenible para el día a día"
+            },
+            "type": "text_block"
+          },
+          "1558555669397": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1974.jpg",
+              "enable_image": true,
+              "button_link": "shopify:\/\/products\/virginia-bolso-shopper-camel-1",
+              "text": "<p>&ldquo;Virginia&rdquo; es el bolso ideal para un d&iacute;a cargado de trabajo. Puedes llevarlo en el hombro o como bandolera gracias a su asa removible de algod&oacute;n, o llevarlo como bolso de mano. Tiene el tama&ntilde;o perfecto para llevar c&oacute;modamente un ordenador port&aacute;til y todos tus objetos personales. Es un bolso ligero, elegante y muy pr&aacute;ctico.<\/p>\n<p>Disponible en camel y negro. &nbsp;<\/p>\n<p>&nbsp;Nuestro bolso &ldquo;Virginia&rdquo; es finalista en el <em>2019&rsquo;s Independent Handbag Designer Awards de Nueva York.<\/em><\/p>",
+              "button_label": "",
+              "title": "Virginia: El Maxi-bolso vegano que esperabas"
+            },
+            "type": "text_block"
+          }
+        },
+        "type": "page-bolsos-columns",
+        "block_order": [
+          "1558555669397",
+          "1558555681073"
+        ]
+      },
+      "page-rinoneras-banner": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/D9W6573_c287a543-30a7-4d60-a9eb-9bc009a1f044.jpg",
+          "button_style": "btn black-and-white uppercase",
+          "color": "homepage--dark",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "link": "shopify:\/\/collections\/rinoneras",
+          "description": "Porque es mejor tener las manos libres.",
+          "button_image": "",
+          "title": "Riñoneras | Bandoleras",
+          "link_text": "Ver Todas",
+          "height": "use_screen_two_thirds",
+          "text_align": "text-left"
+        },
+        "type": "page-rinoneras-banner"
+      },
+      "page-rinoneras-columns": {
+        "settings": {
+          "align_text": "text-center",
+          "homepage_columns_color": "homepage--white",
+          "title": ""
+        },
+        "blocks": {
+          "1553724146688": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1609.jpg",
+              "enable_image": true,
+              "button_link": "",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          },
+          "1553724101555": {
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D9W1650.jpg",
+              "enable_image": true,
+              "button_link": "",
+              "text": "",
+              "button_label": "",
+              "title": ""
+            },
+            "type": "text_block"
+          }
+        },
+        "type": "page-rinoneras-columns",
+        "block_order": [
+          "1553724101555",
+          "1553724146688"
+        ]
+      },
+      "page-mochilas-banner": {
+        "settings": {
+          "image": "shopify:\/\/shop_images\/banner_03.png",
+          "button_style": "btn black-and-white uppercase",
+          "color": "homepage--dark",
+          "parallax": false,
+          "overlay_opacity": 15,
+          "link": "shopify:\/\/collections\/mochilas-1",
+          "description": "Porque (afortunadamente) elegir no siempre implica renunciar.",
+          "button_image": "",
+          "title": "MOCHILAS CONVERTIBLES",
+          "link_text": "Ver Más",
+          "height": "use_screen_full",
+          "text_align": "text-right"
+        },
+        "type": "page-mochilas-banner"
+      }
+    },
+    "collection_text_alignment": "text-center",
+    "image_autoheight_enable": true,
+    "social_google_link": "",
+    "mlvedaACS_positionRight": "10px",
+    "content_for_index": [
+      "1553728183203",
+      "1553730718397",
+      "1553848969253",
+      "1553732598239",
+      "1553849176407",
+      "1553731462153",
+      "1553730204928"
+    ],
+    "tag_sale": false,
+    "text3": "Materiales veganos y sostenibles.",
+    "text4": "Fabricado éticamente.",
+    "text1": "Envíos gratuitos en España Peninsular.",
+    "text2": "2 años de garantía.",
+    "cart_show_additional_buttons": true,
+    "text5": "Apoya programa de empoderamiento para niñas en exclusión.",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "cart_notes_enable": false,
+    "checkout_use_body_background_image": false,
+    "font_body": "google:serifStack:PT+Serif:400",
+    "checkout_button_color": "#60022f",
+    "social_twitter_link": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/autre-sac-logo_2ba31420-a73f-448c-93f2-fb57d989c023.png",
+    "product_social_enable": false,
+    "checkout_use_header_image": false,
+    "font_accent": "google:sansStack:Montserrat:400",
+    "color_header_text": "#000000",
+    "checkout_sidebar_background_color": "#ffffff",
+    "homepage_background_dark": "#000000",
+    "checkout_logo": "",
+    "cart_show_on_click": true,
+    "tag_new": false,
+    "cart_type": "modal",
+    "checkout_input_background_color_mode": "white",
+    "mlvedaACS_positionLeft": false,
+    "mlvedaACS_defaultCurrency": "EUR",
+    "color_border": "#000000",
+    "social_pinterest_link": "https:\/\/www.pinterest.es\/lautresac\/",
+    "mlvedaACS_positionBottom": false,
+    "color_body_text": "#000000",
+    "color_footer_bg": "#ffffff",
+    "checkout_error_color": "#f94851",
+    "social_tumblr_link": "",
+    "font_title": "google:sansStack:Oswald:400",
+    "mlvedaACS_position": "top_with_right",
+    "share_enable_pinterest": true,
+    "checkout_heading_font": "Lato",
+    "tag_sellout": false,
+    "favicon": "shopify:\/\/shop_images\/favicon_73a73c08-8421-48e7-aa1b-4019c181a3e7.png",
+    "mlvedaACS_enable": true,
+    "color_header_bg": "#ffffff",
+    "social_facebook_link": "https:\/\/facebook.com\/lautresac",
+    "social_vimeo_link": "",
+    "mlvedaACS_supportedCurrencies": "USD CAD AUD GBP EUR INR JPY",
+    "color_primary": "#000000",
+    "checkout_body_background_image": "",
+    "mlvedaACS_hideDecimal": false,
+    "color_body_bg": "#ffffff",
+    "share_enable_twitter": true,
+    "color_account_text": "#000000",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "color_account_bg": "#c5f9df",
+    "mlvedaACS_hideDecimal_mcp": true,
+    "social_fancy_link": "",
+    "mlvedaACS_displayFlag": false,
+    "color_footer_social_link": "#000000"
+  },
+  "presets": {
+    "Dark": {
+      "checkout_body_font": "Helvetica Neue",
+      "product_grid_style": "under",
+      "social_youtube_link": "",
+      "share_enable_facebook": true,
+      "homepage_background_light": "#f7f7f7",
+      "product_background_color": "#cfcfcf",
+      "checkout_header_image": "",
+      "color_splash": "#e73131",
+      "social_instagram_link": "",
+      "share_enable_google": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_sidebar_background_image": "",
+      "color_footer_text": "#ffffff",
+      "checkout_use_sidebar_background_image": false,
+      "product_slideshow_arrows": "#cfcfcf",
+      "cart_vendor_enable": false,
+      "twittercard_handle": "",
+      "font_title_capitalize": false,
+      "cart_continue_browsing": "shopify:\/\/collections\/all",
+      "base_font_px": 14,
+      "checkout_accent_color": "#1990C6",
+      "collection_text_alignment": "text-center",
+      "image_autoheight_enable": true,
+      "social_google_link": "",
+      "cart_show_additional_buttons": true,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "cart_notes_enable": false,
+      "checkout_use_body_background_image": false,
+      "font_body": "google:sansStack:PT+Mono:400",
+      "checkout_button_color": "#1990C6",
+      "social_twitter_link": "",
+      "checkout_logo_image": "",
+      "product_social_enable": false,
+      "checkout_use_header_image": false,
+      "font_accent": "google:sansStack:PT+Mono:400",
+      "color_header_text": "#ffffff",
+      "checkout_sidebar_background_color": "#fafafa",
+      "homepage_background_dark": "#2e3438",
+      "checkout_logo": "",
+      "cart_show_on_click": true,
+      "cart_type": "modal",
+      "checkout_input_background_color_mode": "white",
+      "color_border": "#cfcfcf",
+      "social_pinterest_link": "",
+      "color_body_text": "#000000",
+      "color_footer_bg": "#0e0d0d",
+      "checkout_error_color": "#ff6d6d",
+      "social_tumblr_link": "",
+      "font_title": "google:sansStack:PT+Mono:400",
+      "share_enable_pinterest": true,
+      "checkout_heading_font": "Helvetica Neue",
+      "favicon": "",
+      "color_header_bg": "#000000",
+      "social_facebook_link": "",
+      "social_vimeo_link": "",
+      "color_primary": "#000000",
+      "checkout_body_background_image": "",
+      "color_body_bg": "#ffffff",
+      "share_enable_twitter": true,
+      "color_account_text": "#afafaf",
+      "color_account_bg": "#1d1d1d",
+      "social_fancy_link": "",
+      "color_footer_social_link": "#bebebe"
+    },
+    "Light": {
+      "checkout_body_font": "Helvetica Neue",
+      "product_grid_style": "hover",
+      "social_youtube_link": "",
+      "share_enable_facebook": true,
+      "homepage_background_light": "#f7f7f7",
+      "product_background_color": "#FFFFFF",
+      "checkout_header_image": "",
+      "color_splash": "#f4a482",
+      "social_instagram_link": "",
+      "share_enable_google": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_sidebar_background_image": "",
+      "color_footer_text": "#656565",
+      "checkout_use_sidebar_background_image": false,
+      "product_slideshow_arrows": "#cccccc",
+      "cart_vendor_enable": false,
+      "twittercard_handle": "",
+      "font_title_capitalize": true,
+      "cart_continue_browsing": "shopify:\/\/collections\/all",
+      "base_font_px": 14,
+      "checkout_accent_color": "#1990C6",
+      "collection_text_alignment": "text-center",
+      "image_autoheight_enable": true,
+      "social_google_link": "",
+      "cart_show_additional_buttons": true,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "cart_notes_enable": false,
+      "checkout_use_body_background_image": false,
+      "font_body": "google:sansStack:Abel:400",
+      "checkout_button_color": "#1990C6",
+      "social_twitter_link": "",
+      "checkout_logo_image": "",
+      "product_social_enable": false,
+      "checkout_use_header_image": false,
+      "font_accent": "google:sansStack:Questrial:400",
+      "color_header_text": "#656565",
+      "checkout_sidebar_background_color": "#fafafa",
+      "homepage_background_dark": "#2e3438",
+      "checkout_logo": "",
+      "cart_show_on_click": true,
+      "cart_type": "modal",
+      "checkout_input_background_color_mode": "white",
+      "color_border": "#f7f7f7",
+      "social_pinterest_link": "",
+      "color_body_text": "#656565",
+      "color_footer_bg": "#ffffff",
+      "checkout_error_color": "#ff6d6d",
+      "social_tumblr_link": "",
+      "font_title": "google:sansStack:Megrim:400",
+      "share_enable_pinterest": true,
+      "checkout_heading_font": "Helvetica Neue",
+      "favicon": "",
+      "color_header_bg": "#ffffff",
+      "social_facebook_link": "",
+      "social_vimeo_link": "",
+      "color_primary": "#585e71",
+      "checkout_body_background_image": "",
+      "color_body_bg": "#ffffff",
+      "share_enable_twitter": true,
+      "color_account_text": "#656565",
+      "color_account_bg": "#f3f3f3",
+      "social_fancy_link": "",
+      "color_footer_social_link": "#a9a9a9"
+    },
+    "Bright": {
+      "checkout_body_font": "Helvetica Neue",
+      "product_grid_style": "hover",
+      "social_youtube_link": "",
+      "share_enable_facebook": true,
+      "homepage_background_light": "#f7f7f7",
+      "product_background_color": "#f6f6f6",
+      "checkout_header_image": "",
+      "color_splash": "#1391a4",
+      "social_instagram_link": "",
+      "share_enable_google": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_sidebar_background_image": "",
+      "color_footer_text": "#333333",
+      "checkout_use_sidebar_background_image": false,
+      "product_slideshow_arrows": "#cccccc",
+      "cart_vendor_enable": false,
+      "twittercard_handle": "",
+      "font_title_capitalize": true,
+      "cart_continue_browsing": "shopify:\/\/collections\/all",
+      "base_font_px": 14,
+      "checkout_accent_color": "#1990C6",
+      "collection_text_alignment": "text-center",
+      "image_autoheight_enable": true,
+      "social_google_link": "",
+      "cart_show_additional_buttons": true,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "cart_notes_enable": false,
+      "checkout_use_body_background_image": false,
+      "font_body": "google:serifStack:PT+Serif:400",
+      "checkout_button_color": "#1990C6",
+      "social_twitter_link": "",
+      "checkout_logo_image": "",
+      "product_social_enable": false,
+      "checkout_use_header_image": false,
+      "font_accent": "google:sansStack:Montserrat:400",
+      "color_header_text": "#333333",
+      "checkout_sidebar_background_color": "#fafafa",
+      "homepage_background_dark": "#2e3438",
+      "checkout_logo": "",
+      "cart_show_on_click": true,
+      "cart_type": "modal",
+      "checkout_input_background_color_mode": "white",
+      "color_border": "#cccccc",
+      "social_pinterest_link": "",
+      "color_body_text": "#000000",
+      "color_footer_bg": "#f2f2f2",
+      "checkout_error_color": "#ff6d6d",
+      "social_tumblr_link": "",
+      "font_title": "google:sansStack:Oswald:400",
+      "share_enable_pinterest": true,
+      "checkout_heading_font": "Helvetica Neue",
+      "favicon": "",
+      "color_header_bg": "#ffffff",
+      "social_facebook_link": "",
+      "social_vimeo_link": "",
+      "color_primary": "#333333",
+      "checkout_body_background_image": "",
+      "color_body_bg": "#ffffff",
+      "share_enable_twitter": true,
+      "color_account_text": "#ffffff",
+      "color_account_bg": "#000000",
+      "social_fancy_link": "",
+      "color_footer_social_link": "#2e3438"
+    }
+  }
+}
